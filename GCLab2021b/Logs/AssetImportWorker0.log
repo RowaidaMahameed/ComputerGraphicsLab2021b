@@ -2114,3 +2114,997 @@ Received Import Request.
   path: Assets/prefabs/Road01.prefab
   artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7903a168a36d0a361f1138908a42691') in 0.083795 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 208.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3320.
+Total: 3.237424 ms (FindLiveObjects: 0.340707 ms CreateObjectMapping: 0.269476 ms MarkObjects: 2.601413 ms  DeleteObjects: 0.023404 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.445837 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e5411d00ad94f84a14a11c18147182') in 0.113075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.264270 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34087532d64b806de87aeb8f2bcca83f') in 0.045132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.898522 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f1327349d5195092f79cd35a3f07dd') in 0.041065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.867272 seconds.
+  path: Assets/prefabs/Road01 1.prefab
+  artifactKey: Guid(0452d98939be94933ae16c7730335e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01 1.prefab using Guid(0452d98939be94933ae16c7730335e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbfc0c0fbbddd8ba759da937d434552') in 0.043584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.035134 seconds.
+  path: Assets/prefabs/Road02.prefab
+  artifactKey: Guid(0452d98939be94933ae16c7730335e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road02.prefab using Guid(0452d98939be94933ae16c7730335e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcd3aaea2806552029169ee906920ab') in 0.064535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.653381 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792b3060340ebe27ad2d53f5dfb6aae9') in 0.029437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.108476 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58aeec0deb60c3456f970c191caf98a5') in 0.021391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.133328 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144d1d0f17a12fa04090fe6cd646ee2e') in 0.027257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.359031 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ba881341b9418aa78980240b74743c') in 0.022464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.707223 seconds.
+  path: Assets/imports/SimpleTown/Models/ambo_mesh.fbx
+  artifactKey: Guid(bba07d4c42e107647a8387e6c9f64a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/ambo_mesh.fbx using Guid(bba07d4c42e107647a8387e6c9f64a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62991a25eb17c1903fd5f47a35fdcd55') in 0.257691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/imports/SimpleTown/Models/car_mesh.fbx
+  artifactKey: Guid(af4878fa6956aaf4f8de9982324f692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/car_mesh.fbx using Guid(af4878fa6956aaf4f8de9982324f692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313902bec7f002e3cfaeb7670493d9b3') in 0.024877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/imports/SimpleTown/Models/ariel_mesh.fbx
+  artifactKey: Guid(8668923efb69e7b408cdbf69f309fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/ariel_mesh.fbx using Guid(8668923efb69e7b408cdbf69f309fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee353699400c08eca97f4e508c30b9b') in 0.063844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_01.fbx
+  artifactKey: Guid(f92cd4b2b3e84f94084adcf615a7cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_01.fbx using Guid(f92cd4b2b3e84f94084adcf615a7cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92e2fb260f4daae6dc9c8b51d066a63') in 0.027076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/imports/SimpleTown/Models/apartment_large_mesh.fbx
+  artifactKey: Guid(1dbd4941c0c376e4086d9ccc9d733540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/apartment_large_mesh.fbx using Guid(1dbd4941c0c376e4086d9ccc9d733540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8355575283208f653c81f8d6592f4a') in 0.025062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_CoffeeShop.fbx
+  artifactKey: Guid(7d9c8c8303f1ac74cbf055cf9cac9a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_CoffeeShop.fbx using Guid(7d9c8c8303f1ac74cbf055cf9cac9a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec4017260eb48b558bf07257dd44e30') in 0.015895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_010.fbx
+  artifactKey: Guid(2d3ef40818d0b7544968ed3841b6bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_010.fbx using Guid(2d3ef40818d0b7544968ed3841b6bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4e0e4ca00295680855786a67d56618') in 0.043577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_02.fbx
+  artifactKey: Guid(3bdfb076d1ef4b94bb84ba0c61c3ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_02.fbx using Guid(3bdfb076d1ef4b94bb84ba0c61c3ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9a63b6cb601257801547be75a314b8') in 0.017194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_08.fbx
+  artifactKey: Guid(e2000e869517d9447b009ddc5f8e9c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_08.fbx using Guid(e2000e869517d9447b009ddc5f8e9c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6250a21ef5512f61dbd89134c56b8c') in 0.030366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_StripClub.fbx
+  artifactKey: Guid(f4682b3daa940a549b9ad91454ca60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_StripClub.fbx using Guid(f4682b3daa940a549b9ad91454ca60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b04ca105d0686f9969a5e00e47e810f') in 0.047842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/imports/SimpleTown/Models/ambo_seperate_mesh.fbx
+  artifactKey: Guid(f494362554430bd4f970df5ff7335d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/ambo_seperate_mesh.fbx using Guid(f494362554430bd4f970df5ff7335d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e87e8aeb16427e4a25c152456e0dd28') in 0.118947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/imports/SimpleTown/Models/bush_large_mesh.fbx
+  artifactKey: Guid(a9a5a3097f69f184ca2b8cad8bca9cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/bush_large_mesh.fbx using Guid(a9a5a3097f69f184ca2b8cad8bca9cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f429b87c9284cf0dc72ed4c1c96154ba') in 0.016318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Shop_03.fbx
+  artifactKey: Guid(bb848708c367de94c9720b9da6531747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Shop_03.fbx using Guid(bb848708c367de94c9720b9da6531747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779579096aeb40b0677fd13a2f50dacf') in 0.035745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_06.fbx
+  artifactKey: Guid(be4f0d99ab8a7bb45b68f5f2955ce32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_06.fbx using Guid(be4f0d99ab8a7bb45b68f5f2955ce32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcfa62f513d1692c3baca678aeaf546') in 0.041428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_013.fbx
+  artifactKey: Guid(8f27340513872594b9de2bd644c76073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_013.fbx using Guid(8f27340513872594b9de2bd644c76073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4527d09226b962c5b6385a7bd90cea5e') in 0.050962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Cinema.fbx
+  artifactKey: Guid(d5ed28ae93a48774b8fe6d997232f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Cinema.fbx using Guid(d5ed28ae93a48774b8fe6d997232f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e14ddc6d4a8b60599ea05de578d9830') in 0.026033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_012.fbx
+  artifactKey: Guid(07dad37e21dca5e49baa78cb36a70b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_012.fbx using Guid(07dad37e21dca5e49baa78cb36a70b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea94fa08fa68afb0c70be3c0fc2c7c1') in 0.031765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Shop_01.fbx
+  artifactKey: Guid(737e142b3005c884a88e7a2d352d5f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Shop_01.fbx using Guid(737e142b3005c884a88e7a2d352d5f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55846bf8699e12181b5d2cd580b482b9') in 0.037668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Mall_A.fbx
+  artifactKey: Guid(a20404673abd4d745afd789ce5e43d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Mall_A.fbx using Guid(a20404673abd4d745afd789ce5e43d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40deebd6921f10f1f42bf7adb7b2dba') in 0.071451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Shop_04.fbx
+  artifactKey: Guid(fed19069578bc954ab108435bad01963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Shop_04.fbx using Guid(fed19069578bc954ab108435bad01963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fea36ed120690c6f41daa385840c3ef') in 0.018459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/imports/SimpleTown/Models/bin_mesh.fbx
+  artifactKey: Guid(01eeea88bad69814892cc040401c06c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/bin_mesh.fbx using Guid(01eeea88bad69814892cc040401c06c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2407640d203f71ee6a5af2f5363ec7e4') in 0.031502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_03.fbx
+  artifactKey: Guid(e7e8c4161a559d24e8fa2220566ea000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_03.fbx using Guid(e7e8c4161a559d24e8fa2220566ea000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b52eb95cbe2df63bc384f2c131bd756') in 0.047059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/imports/SimpleTown/Models/bus_seperate_mesh.fbx
+  artifactKey: Guid(8ea1b5e71f95171488f164bb79c44413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/bus_seperate_mesh.fbx using Guid(8ea1b5e71f95171488f164bb79c44413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83df7172c72c144413b07fb833721a8') in 0.127901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/imports/SimpleTown/Models/bush_small_mesh.fbx
+  artifactKey: Guid(fa317daf241602d42874ef81417ae4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/bush_small_mesh.fbx using Guid(fa317daf241602d42874ef81417ae4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77675a281de6161d8ff071fffbbd3ee') in 0.015693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Garage_02.fbx
+  artifactKey: Guid(b2a7285a0f87d7e4081ba5a1800694e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Garage_02.fbx using Guid(b2a7285a0f87d7e4081ba5a1800694e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f481f57c84d11faf804ec6d46b87693b') in 0.044617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Shop_05.fbx
+  artifactKey: Guid(4b9512614ba1c6646a53f6c8fbb6f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Shop_05.fbx using Guid(4b9512614ba1c6646a53f6c8fbb6f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44e19b58fc28541bfdd9082a0eea148') in 0.036428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Gym.fbx
+  artifactKey: Guid(6810d4db6c3405d4aa114f096f817e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Gym.fbx using Guid(6810d4db6c3405d4aa114f096f817e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ab427a9781442c51326501d339b36c') in 0.043303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/imports/SimpleTown/Models/cop_seperate_mesh.fbx
+  artifactKey: Guid(60b40dfcd89595b45b07229ca226ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/cop_seperate_mesh.fbx using Guid(60b40dfcd89595b45b07229ca226ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8a27784e9d0b48940be6b64e86ec54') in 0.094568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Mall_B.fbx
+  artifactKey: Guid(3340ad4fea81fc24ea110c402f43fc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Mall_B.fbx using Guid(3340ad4fea81fc24ea110c402f43fc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a5009ae1de807e9490288aabddd018') in 0.073566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_07.fbx
+  artifactKey: Guid(81177943e4c90c54f9c5a708797f2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_07.fbx using Guid(81177943e4c90c54f9c5a708797f2dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0489fb96d88f9b13c568e97dc7d53de8') in 0.024211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_05.fbx
+  artifactKey: Guid(bb0c33da9f0cc394c967b7b19026c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_05.fbx using Guid(bb0c33da9f0cc394c967b7b19026c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bd20274933c5cac06cb3013d48ebdd') in 0.026885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Shop_02.fbx
+  artifactKey: Guid(f826f14373faa1b46b90e0262b9a2b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Shop_02.fbx using Guid(f826f14373faa1b46b90e0262b9a2b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f997192471ccec906a5a24f57f9158') in 0.021551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_015.fbx
+  artifactKey: Guid(75c4835d404f33f48869520e4bbd816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_015.fbx using Guid(75c4835d404f33f48869520e4bbd816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ef06dd535087af58512e8a4550687c') in 0.037592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_BaberShop.fbx
+  artifactKey: Guid(e3d5b709a0c709247a94b00fa39e91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_BaberShop.fbx using Guid(e3d5b709a0c709247a94b00fa39e91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78120f4eafeaf1f225b5258ec693f261') in 0.027090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0cd1d75f6c8106d5a8cec72e8c64c0') in 0.019278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/imports/SimpleTown/Models/bus_mesh.fbx
+  artifactKey: Guid(d25b209189d3fae4b916fad2882a817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/bus_mesh.fbx using Guid(d25b209189d3fae4b916fad2882a817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489c0ef6196ad26853c5732ee97d155d') in 0.027610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/imports/SimpleTown/Models/car_seperate_mesh.fbx
+  artifactKey: Guid(aa8035fa128f0d04294a7f4e3a030e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/car_seperate_mesh.fbx using Guid(aa8035fa128f0d04294a7f4e3a030e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac9ee7a976e22dc9b6d47c59e64ab32') in 0.079367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_011.fbx
+  artifactKey: Guid(a7e6ec230f6360b43ab5b901b22e8b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_011.fbx using Guid(a7e6ec230f6360b43ab5b901b22e8b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145875ec10407bfe7f34130f5c6720f2') in 0.041053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_09.fbx
+  artifactKey: Guid(5bbfbd4cd58836d4084c67a44561bc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_09.fbx using Guid(5bbfbd4cd58836d4084c67a44561bc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2603cdb462428e47c5689e6c3656b6') in 0.040915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_AutoRepair.fbx
+  artifactKey: Guid(85b19c2bdfd536e47a82f2cf20fbd921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_AutoRepair.fbx using Guid(85b19c2bdfd536e47a82f2cf20fbd921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c6956c1ab7dd2785d79a0ecfd1ec78') in 0.040097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/imports/SimpleTown/Models/billboard_mesh.fbx
+  artifactKey: Guid(fc48e840b8dd60143be5d6a16cee7dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/billboard_mesh.fbx using Guid(fc48e840b8dd60143be5d6a16cee7dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd993e2576b5a5326c09e16eae9bb6f68') in 0.030508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Garage_03.fbx
+  artifactKey: Guid(057c0fffab1b79c40a60f5aa643fa4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Garage_03.fbx using Guid(057c0fffab1b79c40a60f5aa643fa4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b803fe9b93e48d80c77d43dfaba2c207') in 0.014701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/imports/SimpleTown/Models/cop_mesh.fbx
+  artifactKey: Guid(293b6fe9bb950bc4ab74f8cd8061d92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/cop_mesh.fbx using Guid(293b6fe9bb950bc4ab74f8cd8061d92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215f65d2c269b174188d8f7bd757ac0a') in 0.029959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_04.fbx
+  artifactKey: Guid(6dd48a96d0ad1d74d92b8b7afb57eb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_04.fbx using Guid(6dd48a96d0ad1d74d92b8b7afb57eb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873af8695bd9b2d39c653c1bde10045f') in 0.027227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_House_014.fbx
+  artifactKey: Guid(a2fbcab7769299c42a6101911ee306c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_House_014.fbx using Guid(a2fbcab7769299c42a6101911ee306c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61adc513d9fae80c28c109ebeb359e4a') in 0.025286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/imports/SimpleTown/Models/Building_Garage_01.fbx
+  artifactKey: Guid(df1ce49f4109e474896a5ec21b7133fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/Building_Garage_01.fbx using Guid(df1ce49f4109e474896a5ec21b7133fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb45f87a37866a9bda028f1e7f515c75') in 0.025773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/imports/SimpleTown/Models/apartment_small_mesh.fbx
+  artifactKey: Guid(af06ce55a27e0ab489a48111a4aa5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/apartment_small_mesh.fbx using Guid(af06ce55a27e0ab489a48111a4aa5093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37262ca6efbce4d7aa8ebe1d33e1798e') in 0.033993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.789795 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd941159ab8eeb4f1f248ce8be9349f82') in 0.031677 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.8 MB.
+System memory in use after: 215.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3327.
+Total: 2.939424 ms (FindLiveObjects: 0.425461 ms CreateObjectMapping: 0.275753 ms MarkObjects: 2.211971 ms  DeleteObjects: 0.024586 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.848333 seconds.
+  path: Assets/SimpleBuildings
+  artifactKey: Guid(d725b857695754d8f89aee86f98b1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleBuildings using Guid(d725b857695754d8f89aee86f98b1104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e015cf79c62732ca9f74dd0f6a5350') in 0.005876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.422812 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs
+  artifactKey: Guid(0636ab3300ee5774dbf702be9ec7d815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs using Guid(0636ab3300ee5774dbf702be9ec7d815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e48fdbc459967e9b8c156a553b05ca') in 0.006681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074952 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/burger_shop_base.prefab
+  artifactKey: Guid(e2f4b4a8e48a55c41a713ab188b635b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/burger_shop_base.prefab using Guid(e2f4b4a8e48a55c41a713ab188b635b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94efba38d39b3216494b16b11eb052dd') in 0.121717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_base_fuel.prefab
+  artifactKey: Guid(8cbe172ac5bbd71498240f22a4cc72ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_base_fuel.prefab using Guid(8cbe172ac5bbd71498240f22a4cc72ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1b9e4fe1ed407e5d6dffe14851670d') in 0.018458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_pumps.prefab
+  artifactKey: Guid(aee91b2c56683c84f8d963a3be15a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_pumps.prefab using Guid(aee91b2c56683c84f8d963a3be15a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97271e252c66df1a8b3748ab4f1c01f9') in 0.013859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000947 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_cover.prefab
+  artifactKey: Guid(6b478fd1ffae8814ea0216ef598a101f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_cover.prefab using Guid(6b478fd1ffae8814ea0216ef598a101f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb4b7cf739c520fbef30ac300216c8d') in 0.019184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_medium_red.prefab
+  artifactKey: Guid(061649ebce6383f4481158f40001d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_medium_red.prefab using Guid(061649ebce6383f4481158f40001d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8aeeec61f99a3560b93b24c3696541') in 0.022172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/town_hall_tan.prefab
+  artifactKey: Guid(163ad948853f7154aaac3973d8701044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/town_hall_tan.prefab using Guid(163ad948853f7154aaac3973d8701044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4609775eb2223948d1dbbef7790b83c2') in 0.020535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000793 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_red.prefab
+  artifactKey: Guid(1032b362348098c438fb6da8cd855541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_red.prefab using Guid(1032b362348098c438fb6da8cd855541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48f3148da2c4ebd85bcad10714144eb') in 0.021593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_small_red.prefab
+  artifactKey: Guid(002597fa7916f644fbd4cea5f26abf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_small_red.prefab using Guid(002597fa7916f644fbd4cea5f26abf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da370b524c121c03f08a37eb0f06207') in 0.012570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/church.prefab
+  artifactKey: Guid(0a42a821e915c5249b1f45c11325ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/church.prefab using Guid(0a42a821e915c5249b1f45c11325ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babd199a3b4ace07b15ce3017fbf9370') in 0.012053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_corner_tan.prefab
+  artifactKey: Guid(98e0944a4bd66d94092ba6edeb2b517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_corner_tan.prefab using Guid(98e0944a4bd66d94092ba6edeb2b517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482c59821ee665ce3139788b714a602e') in 0.026671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/shop_classic_blue.prefab
+  artifactKey: Guid(adcbc927843cb464696a5e0eafc874d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/shop_classic_blue.prefab using Guid(adcbc927843cb464696a5e0eafc874d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4315b84202b8d5a4b539471a893e9764') in 0.016748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/police_station.prefab
+  artifactKey: Guid(26f5b1ca28950314bb371b97d01d12ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/police_station.prefab using Guid(26f5b1ca28950314bb371b97d01d12ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26adeb7c60c341b216d346e615bfc252') in 0.012652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/shop_classic_green.prefab
+  artifactKey: Guid(115d50560fda56143953f54ecec6510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/shop_classic_green.prefab using Guid(115d50560fda56143953f54ecec6510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8b9ca1ab6d25bef5bbb29ebbf4ee14') in 0.015960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_single_red.prefab
+  artifactKey: Guid(62486b824594537418e6be96990499af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_single_red.prefab using Guid(62486b824594537418e6be96990499af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a16c543f81ff50799326f0f6d51eab') in 0.017560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_base.prefab
+  artifactKey: Guid(93c53fbaa649d054d8ab9f50fc853c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_base.prefab using Guid(93c53fbaa649d054d8ab9f50fc853c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9159754cbf287a6d4a0ae321a385089') in 0.013979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/table_chairs_green.prefab
+  artifactKey: Guid(150e74af2c5088c48a32d7237ba4a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/table_chairs_green.prefab using Guid(150e74af2c5088c48a32d7237ba4a43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dd36341229ebe5aec00333ad0083a2') in 0.015561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_medium_green.prefab
+  artifactKey: Guid(11e4e4fd277d9054d9819b682ac1786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_medium_green.prefab using Guid(11e4e4fd277d9054d9819b682ac1786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6150b3a2a030620f31a28cdfe1fad81') in 0.013271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/donut_shop.prefab
+  artifactKey: Guid(b7fbf663444dcad409bfc0978b644503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/donut_shop.prefab using Guid(b7fbf663444dcad409bfc0978b644503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f48b713f7692587c92c42f571d6a40') in 0.013648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/town_hall_red.prefab
+  artifactKey: Guid(3fcb776028c04b145b9a759f16bfb29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/town_hall_red.prefab using Guid(3fcb776028c04b145b9a759f16bfb29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd26eb17184282b3bca62dd01f99ab3d') in 0.015697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_corner_green.prefab
+  artifactKey: Guid(64b078ca9ad82a04286cfc7853a16cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_corner_green.prefab using Guid(64b078ca9ad82a04286cfc7853a16cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587d02680b06f5947c0fe16776c4c598') in 0.016460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_sign.prefab
+  artifactKey: Guid(d4de0a989e8a5164b9b72abda47dc777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_sign.prefab using Guid(d4de0a989e8a5164b9b72abda47dc777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacaf5c8b251c79e19385c07f8d6a4ee') in 0.027986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/table_chairs_blue.prefab
+  artifactKey: Guid(df357f8e3b908cc46b82c2b5d3c12885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/table_chairs_blue.prefab using Guid(df357f8e3b908cc46b82c2b5d3c12885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c2f0d1a50427228beec301b2b20c2d') in 0.020539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/icecream_shop.prefab
+  artifactKey: Guid(724e2c0944d598a4687ac169ae627cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/icecream_shop.prefab using Guid(724e2c0944d598a4687ac169ae627cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45a0f0f2913572c22c29e8a6ffd28c9') in 0.015062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_cover_fuel.prefab
+  artifactKey: Guid(fdfd9a22632f9724097a54dfbf28320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_cover_fuel.prefab using Guid(fdfd9a22632f9724097a54dfbf28320e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917c6ffd3a1509a05d325ec6e0c2586d') in 0.027087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_single_green.prefab
+  artifactKey: Guid(667326be87ba51e499a08074a6d6c4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_single_green.prefab using Guid(667326be87ba51e499a08074a6d6c4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ae938bbaee16d71c94f1d816f95edd') in 0.018748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_pumps_fuel.prefab
+  artifactKey: Guid(ad5740db00c2d124eb90fa7c22ae1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_pumps_fuel.prefab using Guid(ad5740db00c2d124eb90fa7c22ae1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dbd8def7e897eefd30628f714cf787') in 0.019476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/burger_shop_sign.prefab
+  artifactKey: Guid(23336e1fec3046f43a692301ea78cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/burger_shop_sign.prefab using Guid(23336e1fec3046f43a692301ea78cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fa99b2fd49385bcd942918f6a58ebb') in 0.022669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_small_green.prefab
+  artifactKey: Guid(63a4e6fd0fb672941a41a90dd6f47aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_small_green.prefab using Guid(63a4e6fd0fb672941a41a90dd6f47aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bcd5805ae2acc217feffc1559e5a4b') in 0.014116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_small_tan.prefab
+  artifactKey: Guid(001cf4ddeb2f395479882b09116508a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_small_tan.prefab using Guid(001cf4ddeb2f395479882b09116508a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125b59f5de3664318e1495a14b446145') in 0.012483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/fire_station.prefab
+  artifactKey: Guid(b4348070e3412c34d95c31d1473ac8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/fire_station.prefab using Guid(b4348070e3412c34d95c31d1473ac8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe398d6e3ce4074514c823517d942c3') in 0.023335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/petrol_station_sign_fuel.prefab
+  artifactKey: Guid(7e0c5a1f50b45ec42bb7652479e23810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/petrol_station_sign_fuel.prefab using Guid(7e0c5a1f50b45ec42bb7652479e23810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee994e5e05f81976eb5f08729b6f92') in 0.018278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/burger_shop_drivethru.prefab
+  artifactKey: Guid(118a8ccb8f1c5d54a9cdf906d6759a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/burger_shop_drivethru.prefab using Guid(118a8ccb8f1c5d54a9cdf906d6759a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1453161c523577ac94301245d96259c2') in 0.012408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_corner_red.prefab
+  artifactKey: Guid(195c7949ea32c79499b325568243c133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_corner_red.prefab using Guid(195c7949ea32c79499b325568243c133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83afc9cd2ee724719d73327de72e0000') in 0.018174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_tan.prefab
+  artifactKey: Guid(579a64902e3165b4fad852b0d79132c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_tan.prefab using Guid(579a64902e3165b4fad852b0d79132c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71721ccb6dc1f6fe9cb4be635fe9f314') in 0.014408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_single_tan.prefab
+  artifactKey: Guid(7e9364a81e9ba6a4a873d3df000ecf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_single_tan.prefab using Guid(7e9364a81e9ba6a4a873d3df000ecf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9890722065646a793771cdeaf6dd79a4') in 0.014123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_large_green.prefab
+  artifactKey: Guid(4a8160bb967261540a58a9a1dd437447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_large_green.prefab using Guid(4a8160bb967261540a58a9a1dd437447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e0b10a50a8c1aca8b2162916e3d4f6') in 0.018451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/factory_medium_tan.prefab
+  artifactKey: Guid(a9ecfb4ec1af8e34fbd8d15e76a6d303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/factory_medium_tan.prefab using Guid(a9ecfb4ec1af8e34fbd8d15e76a6d303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2be1c885e89f7a06062bf2dc31c988') in 0.012214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/shop_classic_red.prefab
+  artifactKey: Guid(08d6903b8c8543c4e91fc6148589813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/shop_classic_red.prefab using Guid(08d6903b8c8543c4e91fc6148589813e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983e56c22870070899a4198775658ebf') in 0.015796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/imports/SimpleBuildings/Prefabs/table_chairs_red.prefab
+  artifactKey: Guid(6302a7ac1164f704c9ab8ab614ba287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleBuildings/Prefabs/table_chairs_red.prefab using Guid(6302a7ac1164f704c9ab8ab614ba287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d30ff4caa6a93dae78f73fa1d9e5ccf') in 0.015084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.719065 seconds.
+  path: Assets/prefabs/Road01.prefab
+  artifactKey: Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road01.prefab using Guid(cb39d59a80c58461f97fd10b6effb519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acac0b5e337e3ce9bb1ac335eecf673d') in 0.032222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/prefabs/Road02.prefab
+  artifactKey: Guid(0452d98939be94933ae16c7730335e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road02.prefab using Guid(0452d98939be94933ae16c7730335e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420301d89162278c5d973c0bd0afa9d1') in 0.042206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.849190 seconds.
+  path: Assets/prefabs/Road02 1.prefab
+  artifactKey: Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road02 1.prefab using Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626bef00b0e5b51ef7f2a7531b502a93') in 0.041949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.339712 seconds.
+  path: Assets/prefabs/Road03.prefab
+  artifactKey: Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road03.prefab using Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbcd79268c1676ef364691425f6228b') in 0.044999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.600270 seconds.
+  path: Assets/prefabs/Road03.prefab
+  artifactKey: Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road03.prefab using Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50f8cf7ba844094f8be6a6e7667a26d') in 0.020387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.609952 seconds.
+  path: Assets/prefabs/Road03.prefab
+  artifactKey: Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road03.prefab using Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e07d0bb364697c033ffa2f15c36a75') in 0.020460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.486000 seconds.
+  path: Assets/prefabs/Road03.prefab
+  artifactKey: Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road03.prefab using Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb34a9d40b21471c997e1c246ee359c') in 0.023283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.924197 seconds.
+  path: Assets/prefabs/Road03.prefab
+  artifactKey: Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road03.prefab using Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4206ddf61e1ae9e5d2c2eb3ce1247302') in 0.015505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.682307 seconds.
+  path: Assets/prefabs/Road03.prefab
+  artifactKey: Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Road03.prefab using Guid(88bae4dc9281146bcbcec4ef57658cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbba9e708d2a7984d286a83609154e7b') in 0.025370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 928.539114 seconds.
+  path: Assets/scripts/carMovement.cs
+  artifactKey: Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/carMovement.cs using Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddfbf5558dcd70d3962a83d39355b28') in 0.002387 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3331.
+Total: 4.515956 ms (FindLiveObjects: 0.288402 ms CreateObjectMapping: 0.146766 ms MarkObjects: 4.045171 ms  DeleteObjects: 0.033586 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.037009 seconds.
+  path: Assets/scripts/carMovement.cs
+  artifactKey: Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/carMovement.cs using Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f6384e0aa7a6f6cde6f1cf086f81f0') in 0.007376 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.2 MB.
+System memory in use after: 216.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3334.
+Total: 2.479332 ms (FindLiveObjects: 0.319941 ms CreateObjectMapping: 0.137912 ms MarkObjects: 1.999227 ms  DeleteObjects: 0.020726 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.4 MB.
+System memory in use after: 216.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3337.
+Total: 3.156450 ms (FindLiveObjects: 0.473850 ms CreateObjectMapping: 0.256535 ms MarkObjects: 2.398570 ms  DeleteObjects: 0.024998 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.6 MB.
+System memory in use after: 216.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3340.
+Total: 2.622919 ms (FindLiveObjects: 0.309018 ms CreateObjectMapping: 0.154306 ms MarkObjects: 2.137870 ms  DeleteObjects: 0.020422 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.8 MB.
+System memory in use after: 217.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3343.
+Total: 2.990808 ms (FindLiveObjects: 0.333416 ms CreateObjectMapping: 0.248085 ms MarkObjects: 2.385219 ms  DeleteObjects: 0.022755 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.0 MB.
+System memory in use after: 217.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3346.
+Total: 3.620544 ms (FindLiveObjects: 0.504195 ms CreateObjectMapping: 0.316155 ms MarkObjects: 2.773743 ms  DeleteObjects: 0.023629 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.3 MB.
+System memory in use after: 217.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3349.
+Total: 2.432219 ms (FindLiveObjects: 0.350180 ms CreateObjectMapping: 0.167663 ms MarkObjects: 1.894223 ms  DeleteObjects: 0.019173 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.5 MB.
+System memory in use after: 217.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3352.
+Total: 2.275505 ms (FindLiveObjects: 0.369650 ms CreateObjectMapping: 0.171139 ms MarkObjects: 1.715930 ms  DeleteObjects: 0.017299 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.7 MB.
+System memory in use after: 217.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3355.
+Total: 2.756662 ms (FindLiveObjects: 0.377782 ms CreateObjectMapping: 0.146321 ms MarkObjects: 2.210202 ms  DeleteObjects: 0.020769 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.9 MB.
+System memory in use after: 218.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3358.
+Total: 2.343510 ms (FindLiveObjects: 0.354244 ms CreateObjectMapping: 0.122855 ms MarkObjects: 1.847701 ms  DeleteObjects: 0.017461 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.1 MB.
+System memory in use after: 218.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3361.
+Total: 2.374793 ms (FindLiveObjects: 0.396637 ms CreateObjectMapping: 0.226544 ms MarkObjects: 1.730015 ms  DeleteObjects: 0.019426 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.3 MB.
+System memory in use after: 218.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3364.
+Total: 3.220147 ms (FindLiveObjects: 0.329596 ms CreateObjectMapping: 0.158506 ms MarkObjects: 2.698555 ms  DeleteObjects: 0.031967 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.5 MB.
+System memory in use after: 218.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3367.
+Total: 2.437442 ms (FindLiveObjects: 0.281863 ms CreateObjectMapping: 0.153160 ms MarkObjects: 1.979643 ms  DeleteObjects: 0.020698 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.7 MB.
+System memory in use after: 218.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 2.905691 ms (FindLiveObjects: 0.366814 ms CreateObjectMapping: 0.188485 ms MarkObjects: 2.326501 ms  DeleteObjects: 0.022102 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.9 MB.
+System memory in use after: 219.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 4.780147 ms (FindLiveObjects: 0.350026 ms CreateObjectMapping: 0.198007 ms MarkObjects: 4.188751 ms  DeleteObjects: 0.041328 ms)
+
