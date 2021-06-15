@@ -1372,3 +1372,349 @@ Received Import Request.
   path: Assets/prefabs/road_piece.prefab
   artifactKey: Guid(ac3710be7061e4865844f27735c29300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/prefabs/road_piece.prefab using Guid(ac3710be7061e4865844f27735c29300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26f631d6fa6c671e6c94791169ed811') in 0.025698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 667.595666 seconds.
+  path: Assets/imports/SimpleTown/Materials
+  artifactKey: Guid(39d6738633c0244f68fdac2cc91706e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials using Guid(39d6738633c0244f68fdac2cc91706e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419ce9f5afb6f987713bc35201db8bd4') in 0.001310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050503 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building01_Brown.mat
+  artifactKey: Guid(1881dcc2b2e53244f86e1589ace55fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building01_Brown.mat using Guid(1881dcc2b2e53244f86e1589ace55fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a78934faf4b5484debcbebfd1dfb0a') in 0.417233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicles_Rubbish_Truck.mat
+  artifactKey: Guid(414196fa64b211b4a904f16f96e4761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicles_Rubbish_Truck.mat using Guid(414196fa64b211b4a904f16f96e4761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbf3d435d46fbff2774ecdcf5dca1a0') in 0.013971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building03_Brown.mat
+  artifactKey: Guid(3033bc4da4cf4c64a902984a8b70aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building03_Brown.mat using Guid(3033bc4da4cf4c64a902984a8b70aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbebadafefa33344714885e353a8ab1') in 0.026315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/imports/SimpleTown/Materials/Road.mat
+  artifactKey: Guid(2191478c1f641c245b4fe9449817a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Road.mat using Guid(2191478c1f641c245b4fe9449817a0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1976b87f7a2b882c820da9d6a0c10aff') in 0.018659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Bus_Blue.mat
+  artifactKey: Guid(3682cb2c05500784a91ea861b80894d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Bus_Blue.mat using Guid(3682cb2c05500784a91ea861b80894d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cfdf33834f94a50398e8b7f19d51fd') in 0.020643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Bus_Grey.mat
+  artifactKey: Guid(2ce226ad9b516b948a25223aedb12e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Bus_Grey.mat using Guid(2ce226ad9b516b948a25223aedb12e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f6e4df39650645723d3990677a1ed4') in 0.020098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/imports/SimpleTown/Materials/Props_Billboard.mat
+  artifactKey: Guid(219967ce9dc9a8f4d9ab8a7d1d14cf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Props_Billboard.mat using Guid(219967ce9dc9a8f4d9ab8a7d1d14cf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9295e8f82665060fc23aa50cd48828') in 0.019642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building02_Pawn.mat
+  artifactKey: Guid(dbb60b2bb65b31644bc927811d8150f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building02_Pawn.mat using Guid(dbb60b2bb65b31644bc927811d8150f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9de6bbc55b0d2d69c2b816d152c427') in 0.019688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Car01_Green.mat
+  artifactKey: Guid(311745311fe655347a9d9a87c17237e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Car01_Green.mat using Guid(311745311fe655347a9d9a87c17237e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a996dd86264249f392d0f42bd3ee6b') in 0.021401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Ute_Red.mat
+  artifactKey: Guid(31d1c671c238c7840aad3992140c4bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Ute_Red.mat using Guid(31d1c671c238c7840aad3992140c4bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a12c33bd712c71a92da7298baf05ff6') in 0.016104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building01_Orange.mat
+  artifactKey: Guid(35e8a620b81fb9f41a6cc3f57c3cab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building01_Orange.mat using Guid(35e8a620b81fb9f41a6cc3f57c3cab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0d5e9091ce146118d448e7944f8e39') in 0.013355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/imports/SimpleTown/Materials/House_Orange.mat
+  artifactKey: Guid(c379c3484d8d95f41b7383a01a99c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/House_Orange.mat using Guid(c379c3484d8d95f41b7383a01a99c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadbef11d3d949adf108fc962474803d') in 0.011992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Car01_Blue.mat
+  artifactKey: Guid(d594dd5f97c95af43b577c3ace270413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Car01_Blue.mat using Guid(d594dd5f97c95af43b577c3ace270413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffffcdd365e625f6deb0daee1e61119') in 0.010241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/imports/SimpleTown/Materials/House_Green.mat
+  artifactKey: Guid(1def060a61daff94897e29b421ab6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/House_Green.mat using Guid(1def060a61daff94897e29b421ab6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8151fff7b5049ce07190cf90e8b5f009') in 0.010094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Fire_Truck.mat
+  artifactKey: Guid(69c95aa252bd9cd4e928b727e8fa1132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Fire_Truck.mat using Guid(69c95aa252bd9cd4e928b727e8fa1132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30b8e6353517af58bb6383707545956') in 0.020286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Bus_Brown.mat
+  artifactKey: Guid(2d0aba1c7a1f1ad4e8c42037f8c582a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Bus_Brown.mat using Guid(2d0aba1c7a1f1ad4e8c42037f8c582a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5e2a156e30166ac3104e0a5dc6247a') in 0.016642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Taxi.mat
+  artifactKey: Guid(57086422479816a4099108803b0a1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Taxi.mat using Guid(57086422479816a4099108803b0a1ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3142372d6b4d5dd84e068335721092') in 0.009502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/imports/SimpleTown/Materials/Nature.mat
+  artifactKey: Guid(83df962484e785f438feef86157b6e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Nature.mat using Guid(83df962484e785f438feef86157b6e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c80eaab3890ba9b4d03d4b9344e09b') in 0.018144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building02_Drug.mat
+  artifactKey: Guid(a2fc21f36e7a78d41bcbc203d3abec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building02_Drug.mat using Guid(a2fc21f36e7a78d41bcbc203d3abec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c51a8a4dd7447df6c843a5f6a4c5bd') in 0.012614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Van_Green.mat
+  artifactKey: Guid(0f4a4a4748666ef45a016a969c20d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Van_Green.mat using Guid(0f4a4a4748666ef45a016a969c20d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa01e7527eaec09c3a2695cf0e8945c') in 0.020198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building03_Blue.mat
+  artifactKey: Guid(2d5c2d2ed7676c64dbbee553b8181859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building03_Blue.mat using Guid(2d5c2d2ed7676c64dbbee553b8181859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a050684a302b73fcc543ca59f399653') in 0.019662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Car01_Red.mat
+  artifactKey: Guid(31519c69ca7480a47a2e875057962981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Car01_Red.mat using Guid(31519c69ca7480a47a2e875057962981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af48323d585b86f960e594c8bb4b918') in 0.009191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Ute_Blue.mat
+  artifactKey: Guid(bc83640b22846c44f8393a85a5c7b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Ute_Blue.mat using Guid(bc83640b22846c44f8393a85a5c7b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae5e6fa803f723cc9d3987b8dc9d36a') in 0.016578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building02_Video.mat
+  artifactKey: Guid(473a182fd4f82f7488ba8bc5c8f394db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building02_Video.mat using Guid(473a182fd4f82f7488ba8bc5c8f394db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ef3236e49f3707e12a503dd5a82656') in 0.009354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Ute_Yellow.mat
+  artifactKey: Guid(60bcfd51d8bfeba47b2012cc604195e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Ute_Yellow.mat using Guid(60bcfd51d8bfeba47b2012cc604195e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3cf2073b94f60da95e41515c1e573b') in 0.015190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Van_Red.mat
+  artifactKey: Guid(2f1eaa18358c5a740b06ca4f0f63168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Van_Red.mat using Guid(2f1eaa18358c5a740b06ca4f0f63168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba3d4dbdbdf7222823c8ce02666b179') in 0.014527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehice_Ambulance.mat
+  artifactKey: Guid(14f01ae7a86d50843aa6fce9ffb1242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehice_Ambulance.mat using Guid(14f01ae7a86d50843aa6fce9ffb1242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e045388ad915073fb9cd25628fe9b727') in 0.019001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building01_Red.mat
+  artifactKey: Guid(91ba25c5e9aad2e4d8693d1840f12d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building01_Red.mat using Guid(91ba25c5e9aad2e4d8693d1840f12d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a4d8f82a7c40d0d9d49684e57082c5') in 0.018929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/imports/SimpleTown/Materials/Props_Dumpster.mat
+  artifactKey: Guid(368fc3419e8bed246ae940f068c776bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Props_Dumpster.mat using Guid(368fc3419e8bed246ae940f068c776bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a083f7ae1a3cc7636703c28c7de41245') in 0.009690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/imports/SimpleTown/Materials/House_Red.mat
+  artifactKey: Guid(9094332b081ce7443a70eb613ca66142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/House_Red.mat using Guid(9094332b081ce7443a70eb613ca66142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8e8401b04ee03b1c5f5fb1145e013d') in 0.015732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/imports/SimpleTown/Materials/props.mat
+  artifactKey: Guid(1fd6e614640236b45bb310cd7610a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/props.mat using Guid(1fd6e614640236b45bb310cd7610a657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293fcf29f9553785fe4361f4f90b6de7') in 0.023045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/imports/SimpleTown/Materials/Props_Street.mat
+  artifactKey: Guid(3e979b3745b4a024bbbd5806d425fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Props_Street.mat using Guid(3e979b3745b4a024bbbd5806d425fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b50e1b9a82e6b39794959dee007016') in 0.018687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Van_Blue.mat
+  artifactKey: Guid(c61d667ab31c5a84db824d59d0fa86d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Van_Blue.mat using Guid(c61d667ab31c5a84db824d59d0fa86d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37c21538a60f279498d0603192661de') in 0.013985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/imports/SimpleTown/Materials/SimpleTown.mat
+  artifactKey: Guid(7cce38ba40b7d05439de10ddde5afaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/SimpleTown.mat using Guid(7cce38ba40b7d05439de10ddde5afaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c7113bb638c9eb2e9bffc6479c5810') in 0.019398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/imports/SimpleTown/Materials/Road_divider.mat
+  artifactKey: Guid(b1b815268ecf4b142b55c74c55d25872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Road_divider.mat using Guid(b1b815268ecf4b142b55c74c55d25872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b8567f0c0c1ddae7e647d34d140349') in 0.013341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/imports/SimpleTown/Materials/Vehicle_Police.mat
+  artifactKey: Guid(faca1b916cb6cc347b1d96b837990085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Vehicle_Police.mat using Guid(faca1b916cb6cc347b1d96b837990085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacfb09b46250d66bed8994af91b6322') in 0.014819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/imports/SimpleTown/Materials/Building03_Grey.mat
+  artifactKey: Guid(a29f8f8f2c03b354eb6ac7674bc35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Materials/Building03_Grey.mat using Guid(a29f8f8f2c03b354eb6ac7674bc35868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afbc3bbb464352e11b26ded35637755') in 0.010745 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2800 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.6 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3292.
+Total: 2.716891 ms (FindLiveObjects: 0.275603 ms CreateObjectMapping: 0.147432 ms MarkObjects: 2.265585 ms  DeleteObjects: 0.026857 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 503.498609 seconds.
+  path: Assets/scripts
+  artifactKey: Guid(8765a04ae2ccb46b297fb4ab49cc88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts using Guid(8765a04ae2ccb46b297fb4ab49cc88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436ea3cbd43e8829c403f9e0fcd6d0ad') in 0.008847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.287351 seconds.
+  path: Assets/scripts/carMovement.cs
+  artifactKey: Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/carMovement.cs using Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888dd96ec70b5a51f76bb3661720ffde') in 4.027690 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.1 MB.
+System memory in use after: 205.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3296.
+Total: 3.139624 ms (FindLiveObjects: 0.311436 ms CreateObjectMapping: 0.161436 ms MarkObjects: 2.642061 ms  DeleteObjects: 0.023153 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 525.706905 seconds.
+  path: Assets/scripts/carMovement.cs
+  artifactKey: Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/carMovement.cs using Guid(ff1c63df9d1484ea9b3002c41193e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c8444b844bbbefd32eac03768dd17d') in 0.011080 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.3 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3299.
+Total: 3.198003 ms (FindLiveObjects: 0.443364 ms CreateObjectMapping: 0.266414 ms MarkObjects: 2.461494 ms  DeleteObjects: 0.024423 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3302.
+Total: 2.528691 ms (FindLiveObjects: 0.493908 ms CreateObjectMapping: 0.199692 ms MarkObjects: 1.810378 ms  DeleteObjects: 0.023546 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.390 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 206.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3305.
+Total: 4.491059 ms (FindLiveObjects: 0.639331 ms CreateObjectMapping: 0.471985 ms MarkObjects: 3.346150 ms  DeleteObjects: 0.030760 ms)
+
