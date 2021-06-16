@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class carMovement : MonoBehaviour
 {
-    public GameObject[] Roads = new GameObject[4];
+    const int roadsNumber = 6;
+    public GameObject[] Roads = new GameObject[roadsNumber];
     public int roadIndex = 0;
     public GameObject car;
     public GameObject mycamera;
@@ -25,8 +27,8 @@ public class carMovement : MonoBehaviour
         if(distance >= 30)
         {
             distance = 0;
-            Roads[roadIndex].gameObject.transform.position += new Vector3(0, 0, 120);
-            roadIndex = (roadIndex + 1) % 4;
+            Roads[roadIndex].gameObject.transform.position += new Vector3(0, 0, 30* roadsNumber);
+            roadIndex = (roadIndex + 1) % roadsNumber;
 
         }
     }
