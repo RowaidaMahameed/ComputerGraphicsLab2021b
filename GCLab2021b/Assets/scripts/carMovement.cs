@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class carMovement : MonoBehaviour
 {
-    const int roadsNumber = 6;
+    const int roadsNumber = 10;
     public GameObject[] Roads = new GameObject[roadsNumber];
     public int roadIndex = 0;
     public GameObject car;
