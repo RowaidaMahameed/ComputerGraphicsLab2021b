@@ -1,7 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
+
+public class MyStuff
+{
+    public GameObject type;
+    public int price;
+    public int weight;
+    public MyStuff(int newprice, int newweight)
+    {
+        price = newprice;
+        weight = newweight;
+    }
+
+}
 
 public class carMovement : MonoBehaviour
 {
@@ -13,6 +27,11 @@ public class carMovement : MonoBehaviour
     public float distance = 0;
     public float speed = 15;
     // Start is called before the first frame update
+    public MyStuff stuf1 = new MyStuff(0, 0);
+    public MyStuff stuf2 = new MyStuff(0, 0);
+    public MyStuff stuf3 = new MyStuff(0, 0);
+    public Vector3 step = new Vector3();
+
     void Start()
     {
         
