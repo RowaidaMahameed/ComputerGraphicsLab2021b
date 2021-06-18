@@ -64,7 +64,12 @@ public class carMovement : MonoBehaviour
         }
         if (textdist >= 50)
         {
-            weights[0].GetComponent<Text>().text = "100";
+            weights[0].GetComponent<Text>().text = "10";
+            weights[1].GetComponent<Text>().text = "60";
+            weights[2].GetComponent<Text>().text = "30";
+            prices[0].GetComponent<Text>().text = "10";
+            prices[1].GetComponent<Text>().text = "1000";
+            prices[2].GetComponent<Text>().text = "200";
 
         }
     }
