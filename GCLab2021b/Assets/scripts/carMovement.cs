@@ -138,7 +138,9 @@ public class carMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        /*
+        if(Input.touchCount)
+        */
         text1.text = "space left : " + spaceleft;
         text2.text = "total : " + mytotal;
         car.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
