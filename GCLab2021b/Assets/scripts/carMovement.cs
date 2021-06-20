@@ -34,6 +34,8 @@ public class MyStuff
 
 public class carMovement : MonoBehaviour
 {
+    public GameObject sumweights;
+    public GameObject sumPrice;
     public GameObject[] prefabs = new GameObject[10];
     public GameObject[] texts = new GameObject[2];
     const int stuffsNumber = 30;
@@ -54,10 +56,17 @@ public class carMovement : MonoBehaviour
     public MyStuff[] myStuffs = new MyStuff[30];
     public GameObject[] Weights = new GameObject[30];
     public GameObject[] Prices = new GameObject[30];
+    public int mytotal = 300;
+    public int spaceleft = 1000;
     // Start is called before the first frame update
-
+    TMPro.TextMeshProUGUI text1;
+    TMPro.TextMeshProUGUI text2;
     void Start()
     {
+
+
+        text1 = sumweights.GetComponent<TMPro.TextMeshProUGUI>();
+        text2 = sumPrice.GetComponent<TMPro.TextMeshProUGUI>();
         All[0] = stuff1;
         All[1] = stuff2;
         All[2] = stuff3;
@@ -125,10 +134,13 @@ public class carMovement : MonoBehaviour
 
         }
     }
-        
+            
     // Update is called once per frame
     void Update()
     {
+
+        text1.text = "space left : " + spaceleft;
+        text2.text = "total : " + mytotal;
         car.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
         mycamera.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
         distance += speed * Time.deltaTime;
