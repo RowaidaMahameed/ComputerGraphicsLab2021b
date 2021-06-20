@@ -34,9 +34,8 @@ public class MyStuff
 
 public class carMovement : MonoBehaviour
 {
-    public GameObject[] weights = new GameObject[3];
-    public GameObject[] prices = new GameObject[3];
     public GameObject[] prefabs = new GameObject[10];
+    public GameObject[] texts = new GameObject[2];
     const int stuffsNumber = 30;
     public GameObject[] allStuff = new GameObject[stuffsNumber];
     public MyStuff stuff1 = new MyStuff(0,10,10);
@@ -53,6 +52,8 @@ public class carMovement : MonoBehaviour
     public float speed = 15;
     public float roundDist = 60;
     public MyStuff[] myStuffs = new MyStuff[30];
+    public GameObject[] Weights = new GameObject[30];
+    public GameObject[] Prices = new GameObject[30];
     // Start is called before the first frame update
 
     void Start()
@@ -98,6 +99,30 @@ public class carMovement : MonoBehaviour
             allStuff[i * 3 + 1] = Instantiate(prefabs[myStuffs[i * 3 + 1].getType()], new Vector3(0, 1.4f + prefabs[myStuffs[i * 3 + 1].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
             allStuff[i * 3 + 2] = Instantiate(prefabs[myStuffs[i * 3 + 2].getType()], new Vector3(6.4f, 1.4f + prefabs[myStuffs[i * 3 + 2].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
 
+            Weights[i * 3] = Instantiate(texts[0], new Vector3(-6.4f, 1.4f + prefabs[myStuffs[i * 3].getType()].transform.lossyScale.y / 2 + 4, roundDist * (i + 1)), Quaternion.identity);
+            Weights[i * 3 + 1] = Instantiate(texts[0], new Vector3(0, 1.4f + prefabs[myStuffs[i * 3 + 1].getType()].transform.lossyScale.y / 2 + 4, roundDist * (i + 1)), Quaternion.identity);
+            Weights[i * 3 + 2] = Instantiate(texts[0], new Vector3(6.4f, 1.4f + prefabs[myStuffs[i * 3 + 2].getType()].transform.lossyScale.y / 2 + 4, roundDist * (i + 1)), Quaternion.identity);
+            TMPro.TextMeshPro t1 = Weights[i * 3].GetComponent<TMPro.TextMeshPro>();
+            TMPro.TextMeshPro t2 = Weights[i * 3 + 1].GetComponent<TMPro.TextMeshPro>();
+            TMPro.TextMeshPro t3 = Weights[i * 3 + 2].GetComponent<TMPro.TextMeshPro>();
+
+            t1.text = "" + myStuffs[i * 3].getWeight();
+            t2.text = "" + myStuffs[i * 3 + 1].getWeight();
+            t3.text = "" + myStuffs[i * 3 + 2].getWeight();
+
+            Prices[i * 3] = Instantiate(texts[1], new Vector3(-6.4f, 1.4f + prefabs[myStuffs[i * 3].getType()].transform.lossyScale.y / 2 + 6, roundDist * (i + 1)), Quaternion.identity);
+            Prices[i * 3 + 1] = Instantiate(texts[1], new Vector3(0, 1.4f + prefabs[myStuffs[i * 3 + 1].getType()].transform.lossyScale.y / 2 + 6, roundDist * (i + 1)), Quaternion.identity);
+            Prices[i * 3 + 2] = Instantiate(texts[1], new Vector3(6.4f, 1.4f + prefabs[myStuffs[i * 3 + 2].getType()].transform.lossyScale.y / 2 + 6, roundDist * (i + 1)), Quaternion.identity);
+
+            TMPro.TextMeshPro t4 = Prices[i * 3].GetComponent<TMPro.TextMeshPro>();
+            TMPro.TextMeshPro t5 = Prices[i * 3 + 1].GetComponent<TMPro.TextMeshPro>();
+            TMPro.TextMeshPro t6 = Prices[i * 3 + 2].GetComponent<TMPro.TextMeshPro>();
+
+            t4.text = "" + myStuffs[i * 3].getPrice();
+            t5.text = "" + myStuffs[i * 3 + 1].getPrice();
+            t6.text = "" + myStuffs[i * 3 + 2].getPrice();
+
+
         }
     }
         
@@ -115,7 +140,7 @@ public class carMovement : MonoBehaviour
             roadIndex = (roadIndex + 1) % roadsNumber;
 
         }
-
+        
 
     }
     
