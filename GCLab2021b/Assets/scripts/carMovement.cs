@@ -8,9 +8,9 @@ using System;
 
 public class MyStuff
 {
-    public int type;
-    public int price;
-    public int weight;
+    private int type;
+    private int price;
+    private int weight;
     public MyStuff(int newtype, int newprice, int newweight)
     {
         type = newtype;
@@ -18,14 +18,26 @@ public class MyStuff
         weight = newweight;
     }
 
+    public int getType()
+    {
+        return type;
+    }
+    public int getPrice()
+    {
+        return price;
+    }
+    public int getWeight()
+    {
+        return weight;
+    }
 }
 
 public class carMovement : MonoBehaviour
 {
-    public GameObject[] weights = new GameObject[3] ;
+    public GameObject[] weights = new GameObject[3];
     public GameObject[] prices = new GameObject[3];
-
-    const int stuffsNumber = 3;
+    public GameObject[] prefabs = new GameObject[10];
+    const int stuffsNumber = 30;
     public GameObject[] allStuff = new GameObject[stuffsNumber];
     public MyStuff stuff1 = new MyStuff(0,10,10);
     public MyStuff stuff2 = new MyStuff(1,60, 1000);
@@ -39,6 +51,8 @@ public class carMovement : MonoBehaviour
     public float distance = 0;
     public float textdist = 0;
     public float speed = 15;
+    public float roundDist = 60;
+    public MyStuff[] myStuffs = new MyStuff[30];
     // Start is called before the first frame update
 
     void Start()
@@ -46,8 +60,47 @@ public class carMovement : MonoBehaviour
         All[0] = stuff1;
         All[1] = stuff2;
         All[2] = stuff3;
-    }
 
+        myStuffs[0] = new MyStuff(0, 100, 100);
+        myStuffs[1] = new MyStuff(1, 200, 150);
+        myStuffs[2] = new MyStuff(2, 100, 200);//s1
+        myStuffs[3] = new MyStuff(3, 100, 120);
+        myStuffs[4] = new MyStuff(4, 50, 50);
+        myStuffs[5] = new MyStuff(5, 150, 200);// s2
+        myStuffs[6] = new MyStuff(6, 200, 150);
+        myStuffs[7] = new MyStuff(7, 120, 200);
+        myStuffs[8] = new MyStuff(8, 90, 90);//s3
+        myStuffs[9] = new MyStuff(9, 250, 150);
+        myStuffs[10] = new MyStuff(1, 200, 200);
+        myStuffs[11] = new MyStuff(4, 200, 300);//s4
+        myStuffs[12] = new MyStuff(7, 120, 120);
+        myStuffs[13] = new MyStuff(2, 150, 150);
+        myStuffs[14] = new MyStuff(6, 100, 150);//s5
+        myStuffs[15] = new MyStuff(5, 200, 100);
+        myStuffs[16] = new MyStuff(9, 150, 200);
+        myStuffs[17] = new MyStuff(4, 150, 150);//s6
+        myStuffs[18] = new MyStuff(2, 100, 50);
+        myStuffs[19] = new MyStuff(6, 50, 50);
+        myStuffs[20] = new MyStuff(7, 200, 150);//s7
+        myStuffs[21] = new MyStuff(1, 200, 150);
+        myStuffs[22] = new MyStuff(9, 120, 150);
+        myStuffs[23] = new MyStuff(3, 100, 100);//s8
+        myStuffs[24] = new MyStuff(7, 150, 80);
+        myStuffs[25] = new MyStuff(4, 100, 70);
+        myStuffs[26] = new MyStuff(0, 130, 150);//s9
+        myStuffs[27] = new MyStuff(8, 80, 100);
+        myStuffs[28] = new MyStuff(4, 90, 90);
+        myStuffs[29] = new MyStuff(2, 120, 110);//s10
+
+        for (int i = 0; i < myStuffs.Length / 3; i++)
+        {
+            allStuff[i * 3] = Instantiate(prefabs[myStuffs[i * 3].getType()], new Vector3(-6.4f, 1.4f + prefabs[myStuffs[i * 3].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
+            allStuff[i * 3 + 1] = Instantiate(prefabs[myStuffs[i * 3 + 1].getType()], new Vector3(0, 1.4f + prefabs[myStuffs[i * 3 + 1].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
+            allStuff[i * 3 + 2] = Instantiate(prefabs[myStuffs[i * 3 + 2].getType()], new Vector3(6.4f, 1.4f + prefabs[myStuffs[i * 3 + 2].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
+
+        }
+    }
+        
     // Update is called once per frame
     void Update()
     {
@@ -62,16 +115,8 @@ public class carMovement : MonoBehaviour
             roadIndex = (roadIndex + 1) % roadsNumber;
 
         }
-        if (textdist >= 50)
-        {
-            weights[0].GetComponent<Text>().text = "10";
-            weights[1].GetComponent<Text>().text = "60";
-            weights[2].GetComponent<Text>().text = "30";
-            prices[0].GetComponent<Text>().text = "10";
-            prices[1].GetComponent<Text>().text = "1000";
-            prices[2].GetComponent<Text>().text = "200";
 
-        }
+
     }
     
 }
