@@ -34,6 +34,7 @@ public class MyStuff
 
 public class carMovement : MonoBehaviour
 {
+    Rigidbody rb;
     public GameObject sumweights;
     public GameObject sumPrice;
     public GameObject[] prefabs = new GameObject[10];
@@ -58,6 +59,11 @@ public class carMovement : MonoBehaviour
     public GameObject[] Prices = new GameObject[30];
     public int mytotal = 300;
     public int spaceleft = 1000;
+
+    // touch vectors 
+    Vector2 firstTouch;
+    Vector2 CurTouch;
+
     // Start is called before the first frame update
     TMPro.TextMeshProUGUI text1;
     TMPro.TextMeshProUGUI text2;
@@ -70,6 +76,7 @@ public class carMovement : MonoBehaviour
         All[0] = stuff1;
         All[1] = stuff2;
         All[2] = stuff3;
+        rb = car.GetComponent<Rigidbody>();
 
         myStuffs[0] = new MyStuff(0, 100, 100);
         myStuffs[1] = new MyStuff(1, 200, 150);
@@ -154,7 +161,31 @@ public class carMovement : MonoBehaviour
             roadIndex = (roadIndex + 1) % roadsNumber;
 
         }
-        
+
+        if (Input.touchCount > 0)
+        {
+            Debug.Log(Input.GetTouch(0).position);
+
+            if (Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                firstTouch = Input.GetTouch(0).position;
+            }
+            if (Input.GetTouch(0).phase == TouchPhase.Moved)
+            {
+                CurTouch = Input.GetTouch(0).position;
+            }
+
+        }
+        if (CurTouch.x - firstTouch.x > 200)
+        {
+            rb.velocity = (Vector3.right * 1);
+        }
+        else if (CurTouch.x - firstTouch.x < -200)
+        {
+            rb.velocity = (Vector3.left * 1);
+        }
+
+
 
     }
     
