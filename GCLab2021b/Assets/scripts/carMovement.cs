@@ -51,6 +51,7 @@ public class carMovement : MonoBehaviour
     public GameObject car;
     public GameObject mycamera;
     public float distance = 0;
+    public float dist_posi = -1;
     public float textdist = 0;
     public float speed = 15;
     public float roundDist = 60;
@@ -151,12 +152,22 @@ public class carMovement : MonoBehaviour
         /*
         if(Input.touchCount)
         */
+        int i = 0;
         text1.text = "space left : " + spaceleft;
         text2.text = "total : " + mytotal;
         car.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
         mycamera.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
         distance += speed * Time.deltaTime;
+        dist_posi += speed * Time.deltaTime;
         textdist += speed * Time.deltaTime;
+        if(dist_posi >= 57 && dist_posi < 63)
+        {
+            MyStuff temp = myStuffs[i * 3 + CarPos];
+            mytotal = mytotal + temp.getPrice();
+            spaceleft = spaceleft - temp.getWeight();
+            i++;
+            dist_posi = -1;
+        }
         if (distance >= 30)
         {
             //Debug.Log("must move");
@@ -204,6 +215,7 @@ public class carMovement : MonoBehaviour
         {
             firstTouch = new Vector2(-1, -1);
             CurTouch = new Vector2(-1, -1);
+
             MouseStarted = false;
             isMoving = false;
         }

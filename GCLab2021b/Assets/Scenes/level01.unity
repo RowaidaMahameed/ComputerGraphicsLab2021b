@@ -1597,6 +1597,7 @@ MonoBehaviour:
   car: {fileID: 1446998340}
   mycamera: {fileID: 662435421}
   distance: 0
+  dist_posi: 0
   textdist: 0
   speed: 15
   roundDist: 60
@@ -1664,6 +1665,9 @@ MonoBehaviour:
   - {fileID: 0}
   mytotal: 300
   spaceleft: 1000
+  CarPos: 0
+  MouseStarted: 0
+  isMoving: 0
 --- !u!4 &1854129767
 Transform:
   m_ObjectHideFlags: 0
