@@ -63,12 +63,13 @@ public class carMovement : MonoBehaviour
     public int CarPos = 0;
     public bool MouseStarted = false;
     // touch vectors 
-    Vector2 firstTouch = Vector2.zero;
-    Vector2 CurTouch = Vector2.zero;
-
+    Vector2 firstTouch = new Vector2(-1, -1);
+    Vector2 CurTouch = new Vector2(-1,-1);
+    int moveDir = 0;
     // Start is called before the first frame update
     TMPro.TextMeshProUGUI text1;
     TMPro.TextMeshProUGUI text2;
+    public bool isMoving = false;
     void Start()
     {
 
@@ -158,11 +159,11 @@ public class carMovement : MonoBehaviour
         textdist += speed * Time.deltaTime;
         if (distance >= 30)
         {
-            Debug.Log("must move");
+            //Debug.Log("must move");
             distance = 0;
-            Debug.Log(Roads[roadIndex].gameObject.transform.position);
+            //Debug.Log(Roads[roadIndex].gameObject.transform.position);
             Roads[roadIndex].gameObject.transform.position += new Vector3(0, 0, 30 * roadsNumber);
-            Debug.Log(Roads[roadIndex].gameObject.transform.position);
+            //Debug.Log(Roads[roadIndex].gameObject.transform.position);
             roadIndex = (roadIndex + 1) % roadsNumber;
 
         }
@@ -185,34 +186,114 @@ public class carMovement : MonoBehaviour
         if(MouseStarted)
         {
             CurTouch = Input.mousePosition;
+            Debug.Log(Input.mousePosition.x);
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (!isMoving && Input.GetMouseButtonDown(0))
         {
+            Debug.Log("First" + Input.mousePosition.x);
             firstTouch = Input.mousePosition;
             MouseStarted = true;
         }
         if (Input.GetMouseButtonUp(0))
         {
             MouseStarted = false;
+            isMoving = false;
         }
 
-    
+
 
         //for both mouse and touch
-        if (CurTouch.x - firstTouch.x > 200)
+        if (firstTouch.x > -1 && CurTouch.x > -1)
         {
-            rb.velocity = (Vector3.right * 10);
-            firstTouch = Vector2.zero;
-            CurTouch = Vector2.zero;
+            if (!isMoving && CurTouch.x - firstTouch.x > 200)
+            {
+                Debug.Log("Riiight");
+                moveDir = 1;
+                isMoving = true;
+                rb.velocity = (Vector3.right * 10);
+                firstTouch = new Vector2(-1, -1);
+                CurTouch = new Vector2(-1, -1);
+            }
+            else if (!isMoving && CurTouch.x - firstTouch.x < -200)
+            {
+                moveDir = -1;
+                isMoving = true;
+                rb.velocity = (Vector3.left * 10);
+                firstTouch = new Vector2(-1, -1);
+                CurTouch = new Vector2(-1, -1);
+            }
         }
-        else if (CurTouch.x - firstTouch.x < -200)
+        if(moveDir == 1)
         {
-            rb.velocity = (Vector3.left * 10);
-            firstTouch = Vector2.zero;
-            CurTouch = Vector2.zero;
+            if (CarPos == 0)
+            {
+                if (car.gameObject.transform.position.x >= 7)
+                {
+                    car.gameObject.transform.position = new Vector3(7, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                    CarPos = 1;
+                    moveDir = 0;
+                    isMoving = false;
+                }
+            }
+            else if (CarPos == -1)
+            {
+                if (car.gameObject.transform.position.x >= 0)
+                {
+                    car.gameObject.transform.position = new Vector3(0, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                    CarPos = 0;
+                    moveDir = 0;
+                    isMoving = false;
+                }
+            }
+            else if (CarPos == 1)
+            {
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                    moveDir = 0;
+                    isMoving = false;
+            }
         }
 
+        if (moveDir == -1)
+        {
+            if (CarPos == 0)
+            {
+                if (car.gameObject.transform.position.x <= -7)
+                {
+                    car.gameObject.transform.position = new Vector3(-7, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                    CarPos = -1;
+                    moveDir = 0;
+                    isMoving = false;
+                }
+            }
+            else if (CarPos == 1)
+            {
+                if (car.gameObject.transform.position.x <= 0)
+                {
+                    car.gameObject.transform.position = new Vector3(0, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                    CarPos = 0;
+                    moveDir = 0;
+                    isMoving = false;
+
+                }
+            }
+            else if (CarPos == -1)
+            {
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                    moveDir = 0;
+                    isMoving = false;
+            }
+        }
 
     }
     
