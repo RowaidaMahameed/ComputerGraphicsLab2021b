@@ -2,8 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - carMovement
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -62,29 +60,29 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2070}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 2634}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3322}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3738}
     - Class: 114
-      Script: {instanceID: 3798}
+      Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 4020}
+      Script: {instanceID: 4062}
     - Class: 114
-      Script: {instanceID: 4484}
+      Script: {instanceID: 4528}
     - Class: 114
-      Script: {instanceID: 4646}
+      Script: {instanceID: 4692}
     - Class: 114
-      Script: {instanceID: 5154}
+      Script: {instanceID: 5208}
     - Class: 114
-      Script: {instanceID: 5294}
+      Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -660,7 +658,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 12ce9b3fa3a1fef4203cdb874c0c5736
+      Hash: a0bb513124da1cf77c246ac55a0fd880
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: carMovement
@@ -1105,4 +1103,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/level01.unity
-  playerPath: /Users/rowaidamahameed/Desktop/gameV1.apk
+  playerPath: /Users/rowaidamahameed/Desktop/gameV3.apk

@@ -176,11 +176,16 @@ public class carMovement : MonoBehaviour
             {
                 firstTouch = Input.GetTouch(0).position;
             }
-            if (Input.GetTouch(0).phase == TouchPhase.Moved)
+            if (!isMoving && Input.GetTouch(0).phase == TouchPhase.Moved)
             {
                 CurTouch = Input.GetTouch(0).position;
             }
-
+            if (Input.GetTouch(0).phase == TouchPhase.Ended)
+            {
+                isMoving = false;
+                firstTouch = new Vector2(-1, -1);
+                CurTouch = new Vector2(-1, -1);
+            }
         }
         
         if(MouseStarted)
@@ -197,6 +202,8 @@ public class carMovement : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
+            firstTouch = new Vector2(-1, -1);
+            CurTouch = new Vector2(-1, -1);
             MouseStarted = false;
             isMoving = false;
         }
