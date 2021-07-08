@@ -60,9 +60,11 @@ public class carMovement : MonoBehaviour
     public int mytotal = 300;
     public int spaceleft = 1000;
 
+    public int CarPos = 0;
+    public bool MouseStarted = false;
     // touch vectors 
-    Vector2 firstTouch;
-    Vector2 CurTouch;
+    Vector2 firstTouch = Vector2.zero;
+    Vector2 CurTouch = Vector2.zero;
 
     // Start is called before the first frame update
     TMPro.TextMeshProUGUI text1;
@@ -156,8 +158,11 @@ public class carMovement : MonoBehaviour
         textdist += speed * Time.deltaTime;
         if (distance >= 30)
         {
+            Debug.Log("must move");
             distance = 0;
+            Debug.Log(Roads[roadIndex].gameObject.transform.position);
             Roads[roadIndex].gameObject.transform.position += new Vector3(0, 0, 30 * roadsNumber);
+            Debug.Log(Roads[roadIndex].gameObject.transform.position);
             roadIndex = (roadIndex + 1) % roadsNumber;
 
         }
@@ -176,15 +181,37 @@ public class carMovement : MonoBehaviour
             }
 
         }
+        
+        if(MouseStarted)
+        {
+            CurTouch = Input.mousePosition;
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            firstTouch = Input.mousePosition;
+            MouseStarted = true;
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            MouseStarted = false;
+        }
+
+    
+
+        //for both mouse and touch
         if (CurTouch.x - firstTouch.x > 200)
         {
-            rb.velocity = (Vector3.right * 1);
+            rb.velocity = (Vector3.right * 10);
+            firstTouch = Vector2.zero;
+            CurTouch = Vector2.zero;
         }
         else if (CurTouch.x - firstTouch.x < -200)
         {
-            rb.velocity = (Vector3.left * 1);
+            rb.velocity = (Vector3.left * 10);
+            firstTouch = Vector2.zero;
+            CurTouch = Vector2.zero;
         }
-
 
 
     }
