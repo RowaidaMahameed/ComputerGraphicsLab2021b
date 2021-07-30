@@ -7,10 +7,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GCLab2021b" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="scripts" expanded="True">
-                <Node name="carMovement.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5ec5f07d-e39f-451b-8c72-834fdcb49cae" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="26606d20-a3d5-4146-b524-9331c87a7cde" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
