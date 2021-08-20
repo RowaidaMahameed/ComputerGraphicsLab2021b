@@ -160,13 +160,13 @@ public class carMovement : MonoBehaviour
         distance += speed * Time.deltaTime;
         dist_posi += speed * Time.deltaTime;
         textdist += speed * Time.deltaTime;
-        if(dist_posi >= 57 && dist_posi < 63)
+        if(dist_posi >= 55 && dist_posi < 65)
         {
             MyStuff temp = myStuffs[i * 3 + CarPos];
             mytotal = mytotal + temp.getPrice();
             spaceleft = spaceleft - temp.getWeight();
             i++;
-            dist_posi = -1;
+            dist_posi = dist_posi - 65;
         }
         if (distance >= 30)
         {
