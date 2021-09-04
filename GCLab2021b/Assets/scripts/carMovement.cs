@@ -81,37 +81,12 @@ public class carMovement : MonoBehaviour
         All[1] = stuff2;
         All[2] = stuff3;
         rb = car.GetComponent<Rigidbody>();
-
-        myStuffs[0] = new MyStuff(0, 100, 100);
-        myStuffs[1] = new MyStuff(1, 200, 150);
-        myStuffs[2] = new MyStuff(2, 100, 200);//s1
-        myStuffs[3] = new MyStuff(3, 100, 120);
-        myStuffs[4] = new MyStuff(4, 50, 50);
-        myStuffs[5] = new MyStuff(5, 150, 200);// s2
-        myStuffs[6] = new MyStuff(6, 200, 150);
-        myStuffs[7] = new MyStuff(7, 120, 200);
-        myStuffs[8] = new MyStuff(8, 90, 90);//s3
-        myStuffs[9] = new MyStuff(9, 250, 150);
-        myStuffs[10] = new MyStuff(1, 200, 200);
-        myStuffs[11] = new MyStuff(4, 200, 300);//s4
-        myStuffs[12] = new MyStuff(7, 120, 120);
-        myStuffs[13] = new MyStuff(2, 150, 150);
-        myStuffs[14] = new MyStuff(6, 100, 150);//s5
-        myStuffs[15] = new MyStuff(5, 200, 100);
-        myStuffs[16] = new MyStuff(9, 150, 200);
-        myStuffs[17] = new MyStuff(4, 150, 150);//s6
-        myStuffs[18] = new MyStuff(2, 100, 50);
-        myStuffs[19] = new MyStuff(6, 50, 50);
-        myStuffs[20] = new MyStuff(7, 200, 150);//s7
-        myStuffs[21] = new MyStuff(1, 200, 150);
-        myStuffs[22] = new MyStuff(9, 120, 150);
-        myStuffs[23] = new MyStuff(3, 100, 100);//s8
-        myStuffs[24] = new MyStuff(7, 150, 80);
-        myStuffs[25] = new MyStuff(4, 100, 70);
-        myStuffs[26] = new MyStuff(0, 130, 150);//s9
-        myStuffs[27] = new MyStuff(8, 80, 100);
-        myStuffs[28] = new MyStuff(4, 90, 90);
-        myStuffs[29] = new MyStuff(2, 120, 110);//s10
+        int[] array1 = { 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 };
+        int[] array2 = { 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50 };
+        for(int i=0; i<30; i++)
+        {
+            myStuffs[i] = new MyStuff(i, array1[i], array2[i]);
+        }
 
         for (int i = 0; i < myStuffs.Length / 3; i++)
         {
@@ -162,7 +137,7 @@ public class carMovement : MonoBehaviour
         textdist += speed * Time.deltaTime;
         if(dist_posi >= 55 && dist_posi < 65)
         {
-            MyStuff temp = myStuffs[i * 3 + CarPos];
+            MyStuff temp = myStuffs[i * 3 + CarPos+3];
             mytotal = mytotal + temp.getPrice();
             spaceleft = spaceleft - temp.getWeight();
             i++;
