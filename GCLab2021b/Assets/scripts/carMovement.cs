@@ -60,7 +60,6 @@ public class carMovement : MonoBehaviour
     public GameObject[] Prices = new GameObject[30];
     public int mytotal = 300;
     public int spaceleft = 1000;
-
     public int CarPos = 0;
     public bool MouseStarted = false;
     // touch vectors 
@@ -73,8 +72,6 @@ public class carMovement : MonoBehaviour
     public bool isMoving = false;
     void Start()
     {
-
-
         text1 = sumweights.GetComponent<TMPro.TextMeshProUGUI>();
         text2 = sumPrice.GetComponent<TMPro.TextMeshProUGUI>();
         All[0] = stuff1;
@@ -90,6 +87,7 @@ public class carMovement : MonoBehaviour
 
         for (int i = 0; i < myStuffs.Length / 3; i++)
         {
+            Debug.Log(myStuffs.Length);
             allStuff[i * 3] = Instantiate(prefabs[myStuffs[i * 3].getType()], new Vector3(-6.4f, 1.4f + prefabs[myStuffs[i * 3].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
             allStuff[i * 3 + 1] = Instantiate(prefabs[myStuffs[i * 3 + 1].getType()], new Vector3(0, 1.4f + prefabs[myStuffs[i * 3 + 1].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
             allStuff[i * 3 + 2] = Instantiate(prefabs[myStuffs[i * 3 + 2].getType()], new Vector3(6.4f, 1.4f + prefabs[myStuffs[i * 3 + 2].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
@@ -121,12 +119,8 @@ public class carMovement : MonoBehaviour
         }
     }
             
-    // Update is called once per frame
     void Update()
     {
-        /*
-        if(Input.touchCount)
-        */
         int i = 0;
         text1.text = "space left : " + spaceleft;
         text2.text = "total : " + mytotal;
@@ -153,6 +147,23 @@ public class carMovement : MonoBehaviour
             roadIndex = (roadIndex + 1) % roadsNumber;
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         if (Input.touchCount > 0)
         {
