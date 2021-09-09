@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.RawImage
   sceneClasses:
     Assets/Scenes/level01.unity:
     - Class: 1
@@ -60,29 +61,31 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2084}
+      Script: {instanceID: 2070}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 2190}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 3322}
+      Script: {instanceID: 2634}
     - Class: 114
-      Script: {instanceID: 3738}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3836}
+      Script: {instanceID: 3702}
     - Class: 114
-      Script: {instanceID: 4062}
+      Script: {instanceID: 3798}
     - Class: 114
-      Script: {instanceID: 4528}
+      Script: {instanceID: 4020}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4484}
     - Class: 114
-      Script: {instanceID: 5208}
+      Script: {instanceID: 4646}
     - Class: 114
-      Script: {instanceID: 5348}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5640}
+      Script: {instanceID: 5294}
+    - Class: 114
+      Script: {instanceID: 5582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -658,7 +661,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: a0bb513124da1cf77c246ac55a0fd880
+      Hash: 2fc7312590ed20a70445c1c2c576ef7a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: carMovement
@@ -1103,4 +1106,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/level01.unity
-  playerPath: /Users/rowaidamahameed/Desktop/gameV3.apk
+  playerPath: /Users/rowaidamahameed/Desktop/gameV5.apk
