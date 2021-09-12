@@ -34,7 +34,7 @@ public class MyStuff
 public class carMovement : MonoBehaviour
 {
     Rigidbody rb;
-    public static readonly int[] winners_value = { 1000,3000,1600};
+    public static readonly int[] winners_value = { 100000,3000,1600};
     public GameObject sumweights;
     public GameObject sumPrice;
     public GameObject finalScore;
@@ -79,10 +79,12 @@ public class carMovement : MonoBehaviour
     TMPro.TextMeshProUGUI text3;
     public bool isMoving = false;
     public GameObject WinnerWindow;
+    public GameObject LoserWindow;
     void Start()
     {
         finalScore.SetActive(false);
         WinnerWindow.SetActive(false);
+        LoserWindow.SetActive(false);
         text1 = sumweights.GetComponent<TMPro.TextMeshProUGUI>();
         text2 = sumPrice.GetComponent<TMPro.TextMeshProUGUI>();
         text3 = finalScore.GetComponent<TMPro.TextMeshProUGUI>();
@@ -176,6 +178,11 @@ public class carMovement : MonoBehaviour
                     else
                     {
                         Debug.Log("Loser");
+                        LoserWindow.SetActive(true);
+                        text3.text = "finalScore : " + mytotal;
+                        finalScore.SetActive(true);
+                        sumweights.SetActive(false);
+                        sumPrice.SetActive(false);
                     }
                 }
 
