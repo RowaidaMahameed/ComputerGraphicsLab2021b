@@ -41,7 +41,9 @@ public class carMovement : MonoBehaviour
     public GameObject[] prefabs = new GameObject[10];
     public GameObject[] texts = new GameObject[2];
     const int stuffsNumber = 30;
+    const int RoadssNumber = 66;
     public GameObject[] allStuff = new GameObject[stuffsNumber];
+    public GameObject[] allRoads = new GameObject[RoadssNumber];
     public MyStuff stuff1 = new MyStuff(0,10,10);
     public MyStuff stuff2 = new MyStuff(1,60, 1000);
     public MyStuff stuff3 = new MyStuff(2,30, 200);
@@ -108,7 +110,11 @@ public class carMovement : MonoBehaviour
             j = UnityEngine.Random.Range(0, 9);
             stuffs3[i] = new MyStuff(j, price3[i], weights3[i]);
         }
+        for (int i = 0; i < RoadssNumber; i++)
+        {
+            allRoads[i] = Instantiate(Roads[i%10],new Vector3(0, 0, 30 * i), Quaternion.identity);
 
+        }
 
         for (int i = 0; i < stuffs1.Length / 3; i++)
         {
@@ -208,16 +214,16 @@ public class carMovement : MonoBehaviour
                     lev++;
                     dist_posi -= 60;
                 }
+               /*
                 if (distance >= 30)
                 {
-                    //Debug.Log("must move");
                     distance = 0;
                     //Debug.Log(Roads[roadIndex].gameObject.transform.position);
                     Roads[roadIndex].gameObject.transform.position += new Vector3(0, 0, 30 * roadsNumber);
                     //Debug.Log(Roads[roadIndex].gameObject.transform.position);
                     roadIndex = (roadIndex + 1) % roadsNumber;
 
-                }
+                }*/
 
             }
         }
