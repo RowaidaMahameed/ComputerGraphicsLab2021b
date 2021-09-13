@@ -48,7 +48,7 @@ public class carMovement : MonoBehaviour
     public MyStuff stuff2 = new MyStuff(1,60, 1000);
     public MyStuff stuff3 = new MyStuff(2,30, 200);
     public MyStuff[] All = new MyStuff[3];
-    const int roadsNumber = 10;
+    const int roadsNumber = 30;
     public GameObject[] Roads = new GameObject[roadsNumber];
     public int roadIndex = 0;
     public GameObject car;
@@ -110,9 +110,12 @@ public class carMovement : MonoBehaviour
             j = UnityEngine.Random.Range(0, 9);
             stuffs3[i] = new MyStuff(j, price3[i], weights3[i]);
         }
+
         for (int i = 0; i < RoadssNumber; i++)
         {
-            allRoads[i] = Instantiate(Roads[i%10],new Vector3(0, 0, 30 * i), Quaternion.identity);
+            Debug.Log((i / 22) + (i % 10));
+
+            allRoads[i] = Instantiate(Roads[(10*(i/22)) + (i%10)],new Vector3(0, 0, 30 * i), Quaternion.identity);
 
         }
 
