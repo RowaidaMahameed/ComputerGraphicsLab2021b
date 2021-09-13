@@ -1,0 +1,4 @@
+#Mon Sep 13 11:18:18 IDT 2021
+base.0=/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/launcher/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -82,8 +82,33 @@ public class carMovement : MonoBehaviour
     public bool isMoving = false;
     public GameObject WinnerWindow;
     public GameObject LoserWindow;
+    public GameObject play;
+    public GameObject exit;
+    public AudioSource audioSource;
+    public void PlayGame()
+    {
+        currentLevel++;
+        audioSource.Play();
+        play.SetActive(false);
+        exit.SetActive(false);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    void Awake()
+    {
+
+
+    }
     void Start()
     {
+
+
+
+
         finalScore.SetActive(false);
         WinnerWindow.SetActive(false);
         LoserWindow.SetActive(false);
@@ -153,7 +178,15 @@ public class carMovement : MonoBehaviour
 
     void Update()
     {
-        if(currentLevel == 0)
+        /*if (currentLevel == 0)
+        {
+            StartWindow.SetActive(true);
+            if ()
+            {
+                currentLevel++;
+            }
+        }*/
+        if(currentLevel == 1)
         {
             if (lev == 10)
             {
@@ -231,10 +264,10 @@ public class carMovement : MonoBehaviour
 
             }
         }
-        if (currentLevel == 1)
+        if (currentLevel == 2)
         {
         }
-        if (currentLevel == 2)
+        if (currentLevel == 3)
         {
         }
 
