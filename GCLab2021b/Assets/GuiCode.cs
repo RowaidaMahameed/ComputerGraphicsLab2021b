@@ -15,8 +15,5 @@ public class GuiCode : MonoBehaviour
     {
         
     }
-    public void PlayGame()
-    {
-
-    }
+  
 }

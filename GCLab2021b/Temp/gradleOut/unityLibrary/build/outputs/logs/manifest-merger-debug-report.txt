@@ -28,13 +28,13 @@ ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLa
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:5-12:16
 	android:screenOrientation
-		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:111-149
+		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:111-147
 	android:launchMode
-		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:150-181
+		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:148-179
 	android:hardwareAccelerated
-		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:364-399
+		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:362-397
 	android:configChanges
-		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:182-363
+		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:180-361
 	android:theme
 		ADDED from /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:69-110
 	android:name

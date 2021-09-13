@@ -44,7 +44,7 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:theme="@style/UnityThemeSelector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -71,7 +71,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="02be36b7-f59b-453c-9e38-5a3438005d4e" />
+            android:value="72cb74bc-b8c3-4f9f-b6fe-946854cacb0e" />
 
         <receiver
             android:name="com.unity.androidnotifications.UnityNotificationManager"

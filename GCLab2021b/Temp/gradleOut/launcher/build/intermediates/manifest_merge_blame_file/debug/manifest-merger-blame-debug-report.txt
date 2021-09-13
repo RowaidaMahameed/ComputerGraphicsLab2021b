@@ -77,8 +77,8 @@
 45-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-48
 46            android:launchMode="singleTask"
 46-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-44
-47            android:screenOrientation="fullSensor"
-47-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-51
+47            android:screenOrientation="portrait"
+47-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-49
 48            android:theme="@style/UnityThemeSelector" >
 48-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-54
 49            <intent-filter>
@@ -128,7 +128,7 @@
 72-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:9-63:68
 73            android:name="unity.build-id"
 73-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-42
-74            android:value="02be36b7-f59b-453c-9e38-5a3438005d4e" />
+74            android:value="72cb74bc-b8c3-4f9f-b6fe-946854cacb0e" />
 74-->[:unityLibrary] /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-65
 75
 76        <receiver

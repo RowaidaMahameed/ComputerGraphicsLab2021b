@@ -52,13 +52,13 @@
 32            android:name="com.unity3d.player.UnityPlayerActivity"
 32-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:15-68
 33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-33-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:182-363
+33-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:180-361
 34            android:hardwareAccelerated="false"
-34-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:364-399
+34-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:362-397
 35            android:launchMode="singleTask"
-35-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:150-181
-36            android:screenOrientation="fullSensor"
-36-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:111-149
+35-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:148-179
+36            android:screenOrientation="portrait"
+36-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:111-147
 37            android:theme="@style/UnityThemeSelector" >
 37-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:69-110
 38            <intent-filter>
@@ -108,7 +108,7 @@
 61-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-101
 62            android:name="unity.build-id"
 62-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-63            android:value="02be36b7-f59b-453c-9e38-5a3438005d4e" />
+63            android:value="72cb74bc-b8c3-4f9f-b6fe-946854cacb0e" />
 63-->/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 64
 65        <receiver

@@ -3108,7 +3108,8 @@ MonoBehaviour:
   isMoving: 0
   WinnerWindow: {fileID: 765931473}
   LoserWindow: {fileID: 278020259}
-  play: {fileID: 0}
+  play: {fileID: 1224046234}
+  exit: {fileID: 666318610}
   audioSource: {fileID: 450536700}
 --- !u!4 &1854129767
 Transform:
