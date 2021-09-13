@@ -34,7 +34,7 @@ public class MyStuff
 public class carMovement : MonoBehaviour
 {
     Rigidbody rb;
-    public static readonly int[] winners_value = { 100000,3000,1600};
+    public static readonly int[] winners_value = { 1000,3000,1600};
     public GameObject sumweights;
     public GameObject sumPrice;
     public GameObject finalScore;
@@ -113,10 +113,7 @@ public class carMovement : MonoBehaviour
 
         for (int i = 0; i < RoadssNumber; i++)
         {
-            Debug.Log((i / 22) + (i % 10));
-
             allRoads[i] = Instantiate(Roads[(10*(i/22)) + (i%10)],new Vector3(0, 0, 30 * i), Quaternion.identity);
-
         }
 
         for (int i = 0; i < stuffs1.Length / 3; i++)
@@ -208,6 +205,10 @@ public class carMovement : MonoBehaviour
                 if (dist_posi >= 60)
                 {
                     Debug.Log("CarPos " + CarPos);
+                    allStuff[lev * 3 + CarPos + 1].SetActive(false);
+                    Prices[lev * 3 + CarPos + 1].SetActive(false);
+                    Weights[lev * 3 + CarPos + 1].SetActive(false);
+
                     MyStuff temp = stuffs1[lev * 3 + CarPos + 1];
                     if (spaceleft - temp.getWeight() >= 0)
                     {
