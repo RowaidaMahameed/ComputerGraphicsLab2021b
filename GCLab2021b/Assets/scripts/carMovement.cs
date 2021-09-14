@@ -40,7 +40,7 @@ public class carMovement : MonoBehaviour
     public GameObject finalScore;
     public GameObject[] prefabs = new GameObject[10];
     public GameObject[] texts = new GameObject[2];
-    const int stuffsNumber = 30;
+    const int stuffsNumber = 90;
     const int RoadssNumber = 66;
     public GameObject[] allStuff = new GameObject[stuffsNumber];
     public GameObject[] allRoads = new GameObject[RoadssNumber];
@@ -60,11 +60,9 @@ public class carMovement : MonoBehaviour
     public int level1_end = 0;
     public float speed = 15;
     public float roundDist = 60;
-    public MyStuff[] stuffs1 = new MyStuff[30];
-    public MyStuff[] stuffs2 = new MyStuff[30];
-    public MyStuff[] stuffs3 = new MyStuff[30];
-    public GameObject[] Weights = new GameObject[30];
-    public GameObject[] Prices = new GameObject[30];
+    public MyStuff[] stuffs1 = new MyStuff[90];
+    public GameObject[] Weights = new GameObject[90];
+    public GameObject[] Prices = new GameObject[90];
     public int mytotal = 0;
     public int spaceleft = 1000;
     public int CarPos = 0;
@@ -86,9 +84,13 @@ public class carMovement : MonoBehaviour
     public GameObject exit;
     public GameObject continue_;
     public AudioSource audioSource;
-    
+    public AudioSource audioCollect;
+    public AudioSource audioStart;
+
+
     public void PlayGame()
     {
+        audioStart.Stop();
         currentLevel++;
         audioSource.Play();
         play.SetActive(false);
@@ -99,6 +101,12 @@ public class carMovement : MonoBehaviour
     {
         currentLevel++;
         continue_.SetActive(false);
+        WinnerWindow.SetActive(false);
+        finalScore.SetActive(false);
+        spaceleft = 1000;
+        mytotal = 0;
+        sumweights.SetActive(true);
+        sumPrice.SetActive(true);
     }
 
     public void ExitGame()
@@ -113,7 +121,7 @@ public class carMovement : MonoBehaviour
     }
     void Start()
     {
-
+        audioStart.Play();
         continue_.SetActive(false);
         finalScore.SetActive(false);
         WinnerWindow.SetActive(false);
@@ -125,21 +133,14 @@ public class carMovement : MonoBehaviour
         All[1] = stuff2;
         All[2] = stuff3;
         rb = car.GetComponent<Rigidbody>();
-        int[] price1 = { 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 };
-        int[] weights1 = { 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50 };
-        int[] price2 = { 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 };
-        int[] weights2 = { 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50 };
-        int[] price3 = { 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 };
-        int[] weights3 = { 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50 };
 
-        for (int i=0; i<30; i++)
+        int[] price = { 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 , 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80, 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 };
+        int[] weights = { 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50, 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50, 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50 };
+
+        for (int i=0; i<90; i++)
         {
             int j = UnityEngine.Random.Range(0, 9);
-            stuffs1[i] = new MyStuff(j, price1[i], weights1[i]);
-            j = UnityEngine.Random.Range(0, 9);
-            stuffs2[i] = new MyStuff(j, price2[i], weights2[i]);
-            j = UnityEngine.Random.Range(0, 9);
-            stuffs3[i] = new MyStuff(j, price3[i], weights3[i]);
+            stuffs1[i] = new MyStuff(j, price[i], weights[i]);
         }
 
         for (int i = 0; i < RoadssNumber; i++)
@@ -147,9 +148,12 @@ public class carMovement : MonoBehaviour
             allRoads[i] = Instantiate(Roads[(10*(i/22)) + (i%10)],new Vector3(0, 0, 30 * i), Quaternion.identity);
         }
 
+        Debug.Log(stuffs1.Length);
+        Debug.Log(allStuff.Length);
+
         for (int i = 0; i < stuffs1.Length / 3; i++)
         {
-     
+         
             allStuff[i * 3] = Instantiate(prefabs[stuffs1[i * 3].getType()], new Vector3(-6.4f, 1.4f + prefabs[stuffs1[i * 3].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
             allStuff[i * 3 + 1] = Instantiate(prefabs[stuffs1[i * 3 + 1].getType()], new Vector3(0, 1.4f + prefabs[stuffs1[i * 3 + 1].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
             allStuff[i * 3 + 2] = Instantiate(prefabs[stuffs1[i * 3 + 2].getType()], new Vector3(6.4f, 1.4f + prefabs[stuffs1[i * 3 + 2].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
@@ -184,19 +188,11 @@ public class carMovement : MonoBehaviour
 
     void Update()
     {
-        /*if (currentLevel == 0)
-        {
-            StartWindow.SetActive(true);
-            if ()
-            {
-                currentLevel++;
-            }
-        }*/
-        if(currentLevel == 1)
+        if(currentLevel %2 == 1)
         {
             if (lev == 10)
             {
-                Debug.Log("Winner");
+                //Debug.Log("Winner");
                 if (textdist <= 610)
                 {
                     text1.text = "space left : " + spaceleft;
@@ -210,7 +206,7 @@ public class carMovement : MonoBehaviour
                 else {
                     if (mytotal >= winners_value[0])
                     {
-                        Debug.Log("Winner");
+                        //Debug.Log("Winner");
                         mytotal -= winners_value[0];
                         spaceleft = 0;
                         WinnerWindow.SetActive(true);
@@ -220,10 +216,11 @@ public class carMovement : MonoBehaviour
                         sumPrice.SetActive(false);
                         currentLevel++;
                         continue_.SetActive(true);
+                        lev = 0;
                     }
                     else
                     {
-                        Debug.Log("Loser");
+                        //Debug.Log("Loser");
                         LoserWindow.SetActive(true);
                         text3.text = "finalScore : " + mytotal;
                         finalScore.SetActive(true);
@@ -243,8 +240,7 @@ public class carMovement : MonoBehaviour
                 dist_posi += speed * Time.deltaTime;
                 textdist += speed * Time.deltaTime;
                 if (dist_posi >= 60)
-                {
-                    Debug.Log("CarPos " + CarPos);
+                { 
                     allStuff[lev * 3 + CarPos + 1].SetActive(false);
                     Prices[lev * 3 + CarPos + 1].SetActive(false);
                     Weights[lev * 3 + CarPos + 1].SetActive(false);
@@ -254,37 +250,18 @@ public class carMovement : MonoBehaviour
                     {
                         mytotal = mytotal + temp.getPrice();
                         spaceleft = spaceleft - temp.getWeight();
+                        audioCollect.Play();
                     }
                     lev++;
                     dist_posi -= 60;
                 }
-               /*
-                if (distance >= 30)
-                {
-                    distance = 0;
-                    //Debug.Log(Roads[roadIndex].gameObject.transform.position);
-                    Roads[roadIndex].gameObject.transform.position += new Vector3(0, 0, 30 * roadsNumber);
-                    //Debug.Log(Roads[roadIndex].gameObject.transform.position);
-                    roadIndex = (roadIndex + 1) % roadsNumber;
-
-                }*/
-
             }
         }
-        if (currentLevel == 2)
-        {
-        }
-        if (currentLevel == 3)
-        {
-        }
-
-
-
 
         /* Moving Code - Mouse and Touch */
         if (Input.touchCount > 0)
         {
-            Debug.Log(Input.GetTouch(0).position);
+            // Debug.Log(Input.GetTouch(0).position);
 
             if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
@@ -305,12 +282,12 @@ public class carMovement : MonoBehaviour
         if (MouseStarted)
         {
             CurTouch = Input.mousePosition;
-            Debug.Log(Input.mousePosition.x);
+           // Debug.Log(Input.mousePosition.x);
         }
 
         if (!isMoving && Input.GetMouseButtonDown(0))
         {
-            Debug.Log("First" + Input.mousePosition.x);
+            //Debug.Log("First" + Input.mousePosition.x);
             firstTouch = Input.mousePosition;
             MouseStarted = true;
         }
@@ -330,7 +307,7 @@ public class carMovement : MonoBehaviour
         {
             if (!isMoving && CurTouch.x - firstTouch.x > 200)
             {
-                Debug.Log("Riiight");
+                // Debug.Log("Riiight");
                 moveDir = 1;
                 isMoving = true;
                 rb.velocity = (Vector3.right * 10);
