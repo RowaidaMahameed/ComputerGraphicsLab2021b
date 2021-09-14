@@ -84,13 +84,21 @@ public class carMovement : MonoBehaviour
     public GameObject LoserWindow;
     public GameObject play;
     public GameObject exit;
+    public GameObject continue_;
     public AudioSource audioSource;
+    
     public void PlayGame()
     {
         currentLevel++;
         audioSource.Play();
         play.SetActive(false);
         exit.SetActive(false);
+    }
+
+    public void continueGame()
+    {
+        currentLevel++;
+        continue_.SetActive(false);
     }
 
     public void ExitGame()
@@ -106,9 +114,7 @@ public class carMovement : MonoBehaviour
     void Start()
     {
 
-
-
-
+        continue_.SetActive(false);
         finalScore.SetActive(false);
         WinnerWindow.SetActive(false);
         LoserWindow.SetActive(false);
@@ -213,6 +219,7 @@ public class carMovement : MonoBehaviour
                         sumweights.SetActive(false);
                         sumPrice.SetActive(false);
                         currentLevel++;
+                        continue_.SetActive(true);
                     }
                     else
                     {
