@@ -38,7 +38,7 @@ public class carMovement : MonoBehaviour
     public GameObject sumweights;
     public GameObject sumPrice;
     public GameObject finalScore;
-    public GameObject[] prefabs = new GameObject[10];
+    public GameObject[] prefabs = new GameObject[20];
     public GameObject[] texts = new GameObject[2];
     const int stuffsNumber = 90;
     const int RoadssNumber = 63;
@@ -139,7 +139,7 @@ public class carMovement : MonoBehaviour
 
         for (int i=0; i<90; i++)
         {
-            int j = UnityEngine.Random.Range(0, 9);
+            int j = UnityEngine.Random.Range(0, 19);
             stuffs1[i] = new MyStuff(j, price[i], weights[i]);
         }
 
@@ -189,10 +189,51 @@ public class carMovement : MonoBehaviour
     void Update()
     {
 
-        if (lev == 10)
+        if (currentLevel %2 != 0)
         {
-            //Debug.Log("Winner");
-            if (textdist <= 610)
+            if (lev == 10)
+            {
+                //Debug.Log("Winner");
+                if (textdist <= 610)
+                {
+                    text1.text = "space left : " + spaceleft;
+                    text2.text = "total : " + mytotal;
+                    car.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
+                    mycamera.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
+                    distance += speed * Time.deltaTime;
+                    dist_posi += speed * Time.deltaTime;
+                    textdist += speed * Time.deltaTime;
+                }
+                else
+                {
+                    if (mytotal >= winners_value[0])
+                    {
+                        //Debug.Log("Winner");
+                        mytotal -= winners_value[0];
+                        spaceleft = 0;
+                        WinnerWindow.SetActive(true);
+                        text3.text = "finalScore : " + mytotal;
+                        finalScore.SetActive(true);
+                        sumweights.SetActive(false);
+                        sumPrice.SetActive(false);
+                        currentLevel++;
+                        continue_.SetActive(true);
+                        lev = 0;
+                    }
+                    else
+                    {
+                        //Debug.Log("Loser");
+                        exit.SetActive(true);
+                        LoserWindow.SetActive(true);
+                        text3.text = "finalScore : " + mytotal;
+                        finalScore.SetActive(true);
+                        sumweights.SetActive(false);
+                        sumPrice.SetActive(false);
+                    }
+                }
+
+            }
+            else
             {
                 text1.text = "space left : " + spaceleft;
                 text2.text = "total : " + mytotal;
@@ -201,59 +242,23 @@ public class carMovement : MonoBehaviour
                 distance += speed * Time.deltaTime;
                 dist_posi += speed * Time.deltaTime;
                 textdist += speed * Time.deltaTime;
-            }
-            else {
-                if (mytotal >= winners_value[0])
+                if (dist_posi >= 60)
                 {
-                    //Debug.Log("Winner");
-                    mytotal -= winners_value[0];
-                    spaceleft = 0;
-                    WinnerWindow.SetActive(true);
-                    text3.text = "finalScore : " + mytotal;
-                    finalScore.SetActive(true);
-                    sumweights.SetActive(false);
-                    sumPrice.SetActive(false);
-                    currentLevel++;
-                    continue_.SetActive(true);
-                    lev = 0;
-                }
-                else
-                {
-                    //Debug.Log("Loser");
-                    exit.SetActive(true);
-                    LoserWindow.SetActive(true);
-                    text3.text = "finalScore : " + mytotal;
-                    finalScore.SetActive(true);
-                    sumweights.SetActive(false);
-                    sumPrice.SetActive(false);
-                }
-            }
+                    int offset = (30 * (currentLevel / 2));
+                    allStuff[offset+lev * 3 + CarPos + 1].SetActive(false);
+                    Prices[offset+lev * 3 + CarPos + 1].SetActive(false);
+                    Weights[offset+lev * 3 + CarPos + 1].SetActive(false);
 
-        }
-        else
-        {
-            text1.text = "space left : " + spaceleft;
-            text2.text = "total : " + mytotal;
-            car.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
-            mycamera.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
-            distance += speed * Time.deltaTime;
-            dist_posi += speed * Time.deltaTime;
-            textdist += speed * Time.deltaTime;
-            if (dist_posi >= 60)
-            { 
-                allStuff[lev * 3 + CarPos + 1].SetActive(false);
-                Prices[lev * 3 + CarPos + 1].SetActive(false);
-                Weights[lev * 3 + CarPos + 1].SetActive(false);
-
-                MyStuff temp = stuffs1[lev * 3 + CarPos + 1];
-                if (spaceleft - temp.getWeight() >= 0)
-                {
-                    mytotal = mytotal + temp.getPrice();
-                    spaceleft = spaceleft - temp.getWeight();
-                    audioCollect.Play();
+                    MyStuff temp = stuffs1[lev * 3 + CarPos + 1];
+                    if (spaceleft - temp.getWeight() >= 0)
+                    {
+                        mytotal = mytotal + temp.getPrice();
+                        spaceleft = spaceleft - temp.getWeight();
+                        audioCollect.Play();
+                    }
+                    lev++;
+                    dist_posi -= 60;
                 }
-                lev++;
-                dist_posi -= 60;
             }
         }
         

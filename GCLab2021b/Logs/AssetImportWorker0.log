@@ -1,0 +1,876 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52179
+Successfully changed project path to: /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b
+/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 136.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-09-16 20:33:15.352 Unity[6099:460423] Color LCD preferred device: Intel(R) HD Graphics 630 (low power)
+2021-09-16 20:33:15.352 Unity[6099:460423] Metal devices available: 2
+2021-09-16 20:33:15.352 Unity[6099:460423] 0: AMD Radeon Pro 555 (high power)
+2021-09-16 20:33:15.352 Unity[6099:460423] 1: Intel(R) HD Graphics 630 (low power)
+2021-09-16 20:33:15.352 Unity[6099:460423] Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56099
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002448 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 122.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.939 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2857 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.9 MB.
+System memory in use after: 214.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3311.
+Total: 3.226083 ms (FindLiveObjects: 0.425247 ms CreateObjectMapping: 0.230053 ms MarkObjects: 2.482318 ms  DeleteObjects: 0.086736 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/prefabs/objects/stuffs
+  artifactKey: Guid(b94aafca76f44462aae69f1848592a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs using Guid(b94aafca76f44462aae69f1848592a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e9cda9e7d3c2bf4277e3bccfcad536') in 0.006116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.089305 seconds.
+  path: Assets/prefabs/objects/stuffs/cartoon_tv_low.fbx
+  artifactKey: Guid(01bb286cd1eeb4c2ba1dd8a933ece2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/cartoon_tv_low.fbx using Guid(01bb286cd1eeb4c2ba1dd8a933ece2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb33194ade7f60e3e1acc8122fb2264') in 1.822945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/prefabs/objects/stuffs/Material__50_Mixed_AO.tga.png
+  artifactKey: Guid(79167d26c521d40f6ba8b82350ce12f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Material__50_Mixed_AO.tga.png using Guid(79167d26c521d40f6ba8b82350ce12f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e720ba24f2b18b80b805ebc8d7d05b2') in 1.229262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/prefabs/objects/stuffs/Plane_Low.fbx
+  artifactKey: Guid(a638f7c4cb58f48b48da9d30be204f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Plane_Low.fbx using Guid(a638f7c4cb58f48b48da9d30be204f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcca11c903e59e6577499e5ac65156e7') in 0.181035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/prefabs/objects/stuffs/Material__50_Base_Color.tga.png
+  artifactKey: Guid(7d979195873724fc8bcdb34239aa35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Material__50_Base_Color.tga.png using Guid(7d979195873724fc8bcdb34239aa35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11dcd4b638ac273acfa13cb2a4c53da') in 0.039647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/prefabs/objects/stuffs/Material__50_Metallic.tga.png
+  artifactKey: Guid(a7c3cc51fa2ff42d8b892316028e40f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Material__50_Metallic.tga.png using Guid(a7c3cc51fa2ff42d8b892316028e40f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014359cfb846888a933b1fa6040900ed') in 0.050232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/prefabs/objects/stuffs/plane2.fbx
+  artifactKey: Guid(ae8c56f1ee2ff485a8aee6968ba2350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/plane2.fbx using Guid(ae8c56f1ee2ff485a8aee6968ba2350f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd23a98581803a0e53d3a1459df4a50') in 0.240767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/prefabs/objects/stuffs/Material__50_Roughness.tga.png
+  artifactKey: Guid(c8342859c5695454ea50485807cd8de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Material__50_Roughness.tga.png using Guid(c8342859c5695454ea50485807cd8de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3055cfad6adb4c885ee0342ae2deb79') in 0.031267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/prefabs/objects/stuffs/Material__50_Normal_DirectX.tga.png
+  artifactKey: Guid(24fcb4f5dac854c379588715199881ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Material__50_Normal_DirectX.tga.png using Guid(24fcb4f5dac854c379588715199881ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cfd9479938b6392a48454ba6258f6f') in 0.039690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/prefabs/objects/stuffs/Material__50_Emissive.tga.png
+  artifactKey: Guid(07387d70cf85d42c6b7f05be200268d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Material__50_Emissive.tga.png using Guid(07387d70cf85d42c6b7f05be200268d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbb456b00f809b5517ec7e16de69648') in 0.040572 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.8 MB.
+System memory in use after: 232.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 2.883015 ms (FindLiveObjects: 0.468910 ms CreateObjectMapping: 0.194679 ms MarkObjects: 2.181653 ms  DeleteObjects: 0.033745 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002085 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.9 MB.
+System memory in use after: 232.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3453.
+Total: 3.570034 ms (FindLiveObjects: 0.466971 ms CreateObjectMapping: 0.267626 ms MarkObjects: 2.808104 ms  DeleteObjects: 0.023370 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 653.987251 seconds.
+  path: Assets/Stylized 3D Tools
+  artifactKey: Guid(d6fc02b191c354a4ca378126b60fce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 3D Tools using Guid(d6fc02b191c354a4ca378126b60fce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fd226fb8a5796abbeda2e267b9d7da') in 0.012858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.832295 seconds.
+  path: Assets/Stylized 3D Tools/Prefabs
+  artifactKey: Guid(04a811266112f234fb3727eb60e24d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 3D Tools/Prefabs using Guid(04a811266112f234fb3727eb60e24d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2158c80698f3e2e139803390a98176a3') in 0.006369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044540 seconds.
+  path: Assets/Stylized 3D Tools/Prefabs/axe01.prefab
+  artifactKey: Guid(0031543705b8c024c916caa648809017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 3D Tools/Prefabs/axe01.prefab using Guid(0031543705b8c024c916caa648809017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99f7753650876911d08acfe86a7f5e4') in 1.211956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Stylized 3D Tools/Prefabs/pickaxe01.prefab
+  artifactKey: Guid(869385138ceeb3c4e9ed5f72da8d50d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 3D Tools/Prefabs/pickaxe01.prefab using Guid(869385138ceeb3c4e9ed5f72da8d50d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733fa224cf0b5d1d79aac01b0a5674fa') in 0.175315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Stylized 3D Tools/Prefabs/hammer01.prefab
+  artifactKey: Guid(9f64ed5ce0216394d91f836dbefecf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized 3D Tools/Prefabs/hammer01.prefab using Guid(9f64ed5ce0216394d91f836dbefecf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4194c52e600b30b91f27c1bcb09fcbb4') in 0.202477 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.4 MB.
+System memory in use after: 236.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3457.
+Total: 2.380261 ms (FindLiveObjects: 0.289368 ms CreateObjectMapping: 0.171013 ms MarkObjects: 1.897306 ms  DeleteObjects: 0.021149 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001976 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.7 MB.
+System memory in use after: 236.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3460.
+Total: 3.431844 ms (FindLiveObjects: 0.300205 ms CreateObjectMapping: 0.323774 ms MarkObjects: 2.784399 ms  DeleteObjects: 0.022144 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002083 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.9 MB.
+System memory in use after: 237.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3463.
+Total: 3.202099 ms (FindLiveObjects: 0.298589 ms CreateObjectMapping: 0.226838 ms MarkObjects: 2.652012 ms  DeleteObjects: 0.023226 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 804.576823 seconds.
+  path: Assets/Coindrop assets
+  artifactKey: Guid(418fd737245e74f81a5218225365a3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coindrop assets using Guid(418fd737245e74f81a5218225365a3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b3f9fcbc083d0b4543230af029c347') in 0.006034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.875842 seconds.
+  path: Assets/Coindrop assets/Cartoon Furniture 2
+  artifactKey: Guid(f704ec66d4cfe4ac0b03c7ff1ef1731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coindrop assets/Cartoon Furniture 2 using Guid(f704ec66d4cfe4ac0b03c7ff1ef1731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1177c20c3810cfdfc1195810eff2ec95') in 0.006499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.979320 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab
+  artifactKey: Guid(f202b8345d1ad42ad9d9015d82e6a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab using Guid(f202b8345d1ad42ad9d9015d82e6a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2e8812ae7cac502f758b32fec28908') in 0.002906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060398 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Blender.prefab
+  artifactKey: Guid(7ea94d8c70dc6374a8fba2f60a5e8e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Blender.prefab using Guid(7ea94d8c70dc6374a8fba2f60a5e8e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '6a1c498bdc5e12adc5e9c840d24afab4') in 0.464443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Pot.prefab
+  artifactKey: Guid(ffee81f0da02f584a93a097464430f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Pot.prefab using Guid(ffee81f0da02f584a93a097464430f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'c7abc9fcc564114e507bad7c6f11c6a1') in 0.060031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Painting02.prefab
+  artifactKey: Guid(13777aad2de6e11469623c305efea4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Painting02.prefab using Guid(13777aad2de6e11469623c305efea4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'd013502ea9742ed2863af58f04a3dbbe') in 0.025770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Plate.prefab
+  artifactKey: Guid(7df229a87096c01498f72f76e02b163a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Plate.prefab using Guid(7df229a87096c01498f72f76e02b163a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '4659dec0e84a14c4017dd0c91c5d0c98') in 0.018402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/BookPile02.prefab
+  artifactKey: Guid(2787aa8f89b8b1c42b8800d6741651ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/BookPile02.prefab using Guid(2787aa8f89b8b1c42b8800d6741651ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '3a58e6f4ff4cfb5ae669ede567a61a3d') in 0.037198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/CeilingLamp.prefab
+  artifactKey: Guid(590031166a3e21043a54aa0ff3ffac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/CeilingLamp.prefab using Guid(590031166a3e21043a54aa0ff3ffac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '9b473d12d9d6861ae23e7c39907a9cdd') in 0.040603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/CeilingLampLarge.prefab
+  artifactKey: Guid(cab05550c39e5f642a72e2c3696f167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/CeilingLampLarge.prefab using Guid(cab05550c39e5f642a72e2c3696f167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'bed09900f79d8a6e2e1f1511ba4f4e4f') in 0.022853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Glass.prefab
+  artifactKey: Guid(d510eb617a50bd94694716f769a32392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Glass.prefab using Guid(d510eb617a50bd94694716f769a32392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'eb95724d1e5ceab9e285efed3361fa08') in 0.027114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/KitchenCabinetSink.prefab
+  artifactKey: Guid(98ba43e21e5deb946922165f0476a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/KitchenCabinetSink.prefab using Guid(98ba43e21e5deb946922165f0476a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '53ac27a9973e9e27c188efd3ff96496c') in 0.038455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Vase.prefab
+  artifactKey: Guid(79c89f9f7c6cd0a41ab34bdc3e742999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Vase.prefab using Guid(79c89f9f7c6cd0a41ab34bdc3e742999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'c65cfbdbee4e32d1c9e789b5c37599a8') in 0.024645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/ComputerCabinet.prefab
+  artifactKey: Guid(4699a6287dc6eaf4086077408abbc42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/ComputerCabinet.prefab using Guid(4699a6287dc6eaf4086077408abbc42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '48067f1c7100856eacf5456583e53259') in 0.031325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Fridge.prefab
+  artifactKey: Guid(a30d37922d990704db46c367752e1beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Fridge.prefab using Guid(a30d37922d990704db46c367752e1beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '2317ab43bccff6d703e50381ff7e8a3f') in 0.049581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/TelephoneRed.prefab
+  artifactKey: Guid(7d6c6fc7f9b866745a4e42a99597d513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/TelephoneRed.prefab using Guid(7d6c6fc7f9b866745a4e42a99597d513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '14682b7a02aeb68efbecfde5ea48b6cd') in 0.044420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Door.prefab
+  artifactKey: Guid(4426b786374db4d41b011607109c0bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Door.prefab using Guid(4426b786374db4d41b011607109c0bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'fcaced6dc935cb3c1f20a59fe31141b8') in 0.050294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/ComputerMonitor.prefab
+  artifactKey: Guid(4081b1e720289e3498d29a0835529541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/ComputerMonitor.prefab using Guid(4081b1e720289e3498d29a0835529541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'd33d0385a3df50e8b2282791ccf3c505') in 0.041759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/BookPile01.prefab
+  artifactKey: Guid(295daabc0ece2be45bd5ac6bc024ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/BookPile01.prefab using Guid(295daabc0ece2be45bd5ac6bc024ff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '741e3d0a6efbacecefcf3ae2d6e6bc62') in 0.036816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Carpet.prefab
+  artifactKey: Guid(f0c97e67b7a96234b9e61f675108df04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Carpet.prefab using Guid(f0c97e67b7a96234b9e61f675108df04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'f9a81959dd04217d1159e16535f0ab0a') in 0.019005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Flower.prefab
+  artifactKey: Guid(b2bf68e32879e22468dc21ea33716d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Flower.prefab using Guid(b2bf68e32879e22468dc21ea33716d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '15617599384425ad03910c4776a534c4') in 0.044182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Cabinet.prefab
+  artifactKey: Guid(34376220e4eb6084e961fd6dc926c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Cabinet.prefab using Guid(34376220e4eb6084e961fd6dc926c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '98b7505fe00808f800ef5fd297fd745c') in 0.036207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/BookPile03.prefab
+  artifactKey: Guid(0204e741f39bcee4b850fc7305eb5511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/BookPile03.prefab using Guid(0204e741f39bcee4b850fc7305eb5511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '55fca883a93afdf692ed050038c8621d') in 0.043868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Floorplant.prefab
+  artifactKey: Guid(d673148f0950daf47b6c5c013a62a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Floorplant.prefab using Guid(d673148f0950daf47b6c5c013a62a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '276fec64510a08fa2bf94b61f7c17471') in 0.045414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Clock.prefab
+  artifactKey: Guid(df88503b2c6a82341b43d76a73affc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Clock.prefab using Guid(df88503b2c6a82341b43d76a73affc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '136dc334911b42e635e54290c0c08e01') in 0.044515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/DiningTable.prefab
+  artifactKey: Guid(4298e2189135516419400fe9d10ba460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/DiningTable.prefab using Guid(4298e2189135516419400fe9d10ba460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '6e4ae24909d28f0f6ad7c63be64a15b3') in 0.042334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/KitchenCabinetWall.prefab
+  artifactKey: Guid(6ffbe524f61134a4c924466eb0bd8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/KitchenCabinetWall.prefab using Guid(6ffbe524f61134a4c924466eb0bd8c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'b51f132d8e38b070d701c78056d38c4e') in 0.042472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Painting01.prefab
+  artifactKey: Guid(eb8b370bc1a2b8340b9b8681db99b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Painting01.prefab using Guid(eb8b370bc1a2b8340b9b8681db99b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '46ad0110030db97ae33ec2aa14299e39') in 0.022956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Painting03.prefab
+  artifactKey: Guid(fe69c8f478724484ea714ad5c5d3512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Painting03.prefab using Guid(fe69c8f478724484ea714ad5c5d3512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'c2c43471d4bbfbd95345dda1c59922ee') in 0.041772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Book.prefab
+  artifactKey: Guid(8601d5fcdac8dd940a6b547b3fc0a7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Book.prefab using Guid(8601d5fcdac8dd940a6b547b3fc0a7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '9d4cf57bdedb7246354574a1ae888d79') in 0.038266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/KitchenCabinet.prefab
+  artifactKey: Guid(44ed8b4b681b70b45a411121f9010d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/KitchenCabinet.prefab using Guid(44ed8b4b681b70b45a411121f9010d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'a926b477796a0d79612ee36cabe483e4') in 0.044669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/SideboardLong.prefab
+  artifactKey: Guid(f72eb4562729fd24b8c359759af1d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/SideboardLong.prefab using Guid(f72eb4562729fd24b8c359759af1d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '395ae7055cf152e9da846851e35c500b') in 0.042536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Window.prefab
+  artifactKey: Guid(3eb6b32ddd4094741b27f1587f4fe802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Window.prefab using Guid(3eb6b32ddd4094741b27f1587f4fe802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: 'f136d44d1413d95afddf003cec9be5d4') in 0.026126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/DiningTableCloth.prefab
+  artifactKey: Guid(3c28d37b3df248f488516a24cd82f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/DiningTableCloth.prefab using Guid(3c28d37b3df248f488516a24cd82f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '696b819a87a3efe6ceed07fe7518491e') in 0.033164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Shelf.prefab
+  artifactKey: Guid(7376af57a19c67640ba5117352c84a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Shelf.prefab using Guid(7376af57a19c67640ba5117352c84a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '9977369a217f04ebccae916dc9b58c11') in 0.030505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Stove.prefab
+  artifactKey: Guid(0e2989448c2a4e5469478d54713ed0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/Stove.prefab using Guid(0e2989448c2a4e5469478d54713ed0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '708c54cfb83ae03e682c59648539d025') in 0.074344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/TelephoneYellow.prefab
+  artifactKey: Guid(53e5f9fa734410e44a7d37d0af03935a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/stuffs/Coindrop assets/Cartoon Furniture 2/Prefab/TelephoneYellow.prefab using Guid(53e5f9fa734410e44a7d37d0af03935a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+ -> (artifact id: '635fd0be6d5271a000ea28703e41f458') in 0.058485 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2842 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.9 MB.
+System memory in use after: 239.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3469.
+Total: 2.712138 ms (FindLiveObjects: 0.319341 ms CreateObjectMapping: 0.200382 ms MarkObjects: 2.166024 ms  DeleteObjects: 0.024951 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.9 MB.
+System memory in use after: 239.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3472.
+Total: 2.283113 ms (FindLiveObjects: 0.272935 ms CreateObjectMapping: 0.143394 ms MarkObjects: 1.846668 ms  DeleteObjects: 0.018918 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 304.052693 seconds.
+  path: Assets/prefabs/objects/Coindrop assets
+  artifactKey: Guid(c40266a4625984f889390bacea2e4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets using Guid(c40266a4625984f889390bacea2e4429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd814663efbe6cba3d7de848b4da46c34') in 0.006582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.417926 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01
+  artifactKey: Guid(5a567aa41bb4bf6439923e8cec251c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01 using Guid(5a567aa41bb4bf6439923e8cec251c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35098f4317c8d73f91a0cf586b994b85') in 0.006487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.061976 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs
+  artifactKey: Guid(906594f225af5d343a7c5447e4c470b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs using Guid(906594f225af5d343a7c5447e4c470b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3cf157ab1b806fc1078d9013b4c92a') in 0.006756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055366 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Checker01.prefab
+  artifactKey: Guid(e7934fde54da98a4fba3bab7572af0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Checker01.prefab using Guid(e7934fde54da98a4fba3bab7572af0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760445f14f602277c1c3bfd431bf4115') in 0.114926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bedtable_Red.prefab
+  artifactKey: Guid(55a8495ff70f64348a9167db8cba472b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bedtable_Red.prefab using Guid(55a8495ff70f64348a9167db8cba472b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884b4a411c0263b358831be250fb7f67') in 0.033332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/LoudSpeaker_Purple.prefab
+  artifactKey: Guid(6c0687a848c7db84e8fd25e200e65432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/LoudSpeaker_Purple.prefab using Guid(6c0687a848c7db84e8fd25e200e65432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d5c6ef6d9ca5befa24340e250da9db') in 0.046057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bed_Pink.prefab
+  artifactKey: Guid(9f6199a603b8c0c49ba13d995a95e33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bed_Pink.prefab using Guid(9f6199a603b8c0c49ba13d995a95e33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8044f6cc2c2a1bd9ba53da3d8df953') in 0.047255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bed_Blue.prefab
+  artifactKey: Guid(c426620b98af8124f9cbbe855bc19ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bed_Blue.prefab using Guid(c426620b98af8124f9cbbe855bc19ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f74ec04c3d71230181fa6bd439053') in 0.043888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Drawer_Blue.prefab
+  artifactKey: Guid(a87772a1cab86784b81eae132ab9a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Drawer_Blue.prefab using Guid(a87772a1cab86784b81eae132ab9a849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2e73cc6a4173c972b7769bedee1e9f') in 0.039149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Chair_Purple.prefab
+  artifactKey: Guid(fa5e9d8db280f704d8dfc402e186ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Chair_Purple.prefab using Guid(fa5e9d8db280f704d8dfc402e186ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ff7a19256aeba96e231941b3031f5a') in 0.036249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Television_Purple.prefab
+  artifactKey: Guid(8f487cb5184c7f0409e5b11078fa6d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Television_Purple.prefab using Guid(8f487cb5184c7f0409e5b11078fa6d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f623e76afff9ffd1a4ed13a2e23713') in 0.045263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/FloorLamp_Purple.prefab
+  artifactKey: Guid(5d41afe3ce6215049aeea4f0c64032df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/FloorLamp_Purple.prefab using Guid(5d41afe3ce6215049aeea4f0c64032df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9e6f3612d6175d9651df98f9d9dc2c') in 0.038700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeddyBear_Blue.prefab
+  artifactKey: Guid(4c1fad1bdd7cf2d4d9ab5a25cc1244d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeddyBear_Blue.prefab using Guid(4c1fad1bdd7cf2d4d9ab5a25cc1244d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b20a55f36108a7017f06b1cb8da0719') in 0.038138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Red.prefab
+  artifactKey: Guid(f08417b3ae4b3fc47bad3af2a1a92f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Red.prefab using Guid(f08417b3ae4b3fc47bad3af2a1a92f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb324a29096c7a0cf503a559eccb3d5') in 0.037910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Yellow.prefab
+  artifactKey: Guid(35f9d9d5ffbfb134b807fd37170a3029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Yellow.prefab using Guid(35f9d9d5ffbfb134b807fd37170a3029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca0d1d0a3e403e33845947132871bee') in 0.037890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Chair_Wood.prefab
+  artifactKey: Guid(a54ce3974e80d5f488ed2df6cd775a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Chair_Wood.prefab using Guid(a54ce3974e80d5f488ed2df6cd775a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e109c278df750d0333fa6664ba84c35') in 0.037609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/GranfatherClock_Pink.prefab
+  artifactKey: Guid(333b31f33e919d44cb55ca662e52ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/GranfatherClock_Pink.prefab using Guid(333b31f33e919d44cb55ca662e52ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606895b0f2c08166c16afb344c939a79') in 0.052131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/CoatStand_Wood.prefab
+  artifactKey: Guid(88a275237e19781448e5130d030e0a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/CoatStand_Wood.prefab using Guid(88a275237e19781448e5130d030e0a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbb939bb24106945ebe12633e6a59da') in 0.030637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Cabinet_Purple.prefab
+  artifactKey: Guid(9e58802922192a242a48101f1c3ca278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Cabinet_Purple.prefab using Guid(9e58802922192a242a48101f1c3ca278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a88b42ac78bbe4ede4ad193f96464d2') in 0.041502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/CoatStand_Dark.prefab
+  artifactKey: Guid(81293f4b479fab341b372fc4359d630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/CoatStand_Dark.prefab using Guid(81293f4b479fab341b372fc4359d630b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3462dd4af547322d7e9a9905eb0ff808') in 0.023930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/LoudSpeaker_Dark.prefab
+  artifactKey: Guid(bcf430c66ad30a94397daddc3c9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/LoudSpeaker_Dark.prefab using Guid(bcf430c66ad30a94397daddc3c9b8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f5cc09197829c64d169956557bcc89') in 0.043787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Drawer_Green.prefab
+  artifactKey: Guid(d9a754295b6cc7d45ae4647d28e3af49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Drawer_Green.prefab using Guid(d9a754295b6cc7d45ae4647d28e3af49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2b653abee5c09f5d8efdbbebf2dfa8') in 0.046761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeddyBear_Yellow.prefab
+  artifactKey: Guid(d8ac37ef8a1d29447a430e6a31af73ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeddyBear_Yellow.prefab using Guid(d8ac37ef8a1d29447a430e6a31af73ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58318a9f6edb7bb5bc2d78943e5abba6') in 0.035703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Red.prefab
+  artifactKey: Guid(6d6f2082f66e61745b7df366290bf68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Red.prefab using Guid(6d6f2082f66e61745b7df366290bf68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23cc0b7b8c0349b4e4cdfa63ff0ddad') in 0.058098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeddyBear.prefab
+  artifactKey: Guid(579c817c80956f94dbb44d94ec0788a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeddyBear.prefab using Guid(579c817c80956f94dbb44d94ec0788a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c3f6b27901496077f12e333a4bb953') in 0.035858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TableLamp_Green.prefab
+  artifactKey: Guid(ce02c270838e26b4f907ebe8f0a2da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TableLamp_Green.prefab using Guid(ce02c270838e26b4f907ebe8f0a2da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5624364dc3a4d98660065f67bde3b98e') in 0.024754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Yellow.prefab
+  artifactKey: Guid(0234d95307a76c544bec12294a2b7166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Yellow.prefab using Guid(0234d95307a76c544bec12294a2b7166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3654243b8761a151eb9287e38270ebf3') in 0.091641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Desk.prefab
+  artifactKey: Guid(4ce60f5ae18b42d48b5e1f9093a02e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Desk.prefab using Guid(4ce60f5ae18b42d48b5e1f9093a02e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7778a72c4d48b57143fa95d825690da9') in 0.045127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/BookShelf.prefab
+  artifactKey: Guid(c3228c79804ff7b479a83348bc30e0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/BookShelf.prefab using Guid(c3228c79804ff7b479a83348bc30e0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ec836cf2aba6c15ace69648ea84903') in 0.045376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/GranfatherClock_Wood.prefab
+  artifactKey: Guid(2e252c711d514294181e2844e141598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/GranfatherClock_Wood.prefab using Guid(2e252c711d514294181e2844e141598e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2d0c66ab607decb878167ed8d1a989') in 0.044101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TableLamp_Beige.prefab
+  artifactKey: Guid(d9b1333f82d079b4a9730b5c4c0e5caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TableLamp_Beige.prefab using Guid(d9b1333f82d079b4a9730b5c4c0e5caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10639707f834f2bccf76304fbb3920f3') in 0.025738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/RockingChair_Yellow.prefab
+  artifactKey: Guid(0ef7b40f70b5cd246b556fd49bf9aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/RockingChair_Yellow.prefab using Guid(0ef7b40f70b5cd246b556fd49bf9aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca176463acccbdd509e22e716906fd02') in 0.030645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Cabinet_Pink.prefab
+  artifactKey: Guid(9ffcba4fc23e34444b2743027d511b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Cabinet_Pink.prefab using Guid(9ffcba4fc23e34444b2743027d511b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3181c272e63208a1df74268461b65cec') in 0.030792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Checker01.prefab
+  artifactKey: Guid(0ab3a1c5dbfd2264cacf9e100527c88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Checker01.prefab using Guid(0ab3a1c5dbfd2264cacf9e100527c88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1333553d8020e03c48aef664336849d5') in 0.038194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeleScope.prefab
+  artifactKey: Guid(205e26e61c27e9848a0f478af5e63513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/TeleScope.prefab using Guid(205e26e61c27e9848a0f478af5e63513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02023273481258c065cd4c15546a2f13') in 0.038627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Cabinet_Blue.prefab
+  artifactKey: Guid(6b13c5dac49ba0e41876959b87e25362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Cabinet_Blue.prefab using Guid(6b13c5dac49ba0e41876959b87e25362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb281226d35929e3facf5db39f98eb5') in 0.035325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Gramophone.prefab
+  artifactKey: Guid(a0be14ae471b4b3498e36d662c37ce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Gramophone.prefab using Guid(a0be14ae471b4b3498e36d662c37ce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adede8949d6d518250a368277f7b433c') in 0.041814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bedtable.prefab
+  artifactKey: Guid(e8cd2959a80339c438230299d132b96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Bedtable.prefab using Guid(e8cd2959a80339c438230299d132b96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7665ddf0aaea121bcc6e5b51e71c144e') in 0.023279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/RockingChair_Wood.prefab
+  artifactKey: Guid(dafe541d38cbda84fa7344a3e552b1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/RockingChair_Wood.prefab using Guid(dafe541d38cbda84fa7344a3e552b1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c298218e1fea12ae984096371ccf6437') in 0.031337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Ball.prefab
+  artifactKey: Guid(361a89f9c1f85ac4a870753f59a0fde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Ball.prefab using Guid(361a89f9c1f85ac4a870753f59a0fde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b9c38401baddc99e03fa673ed1b091') in 0.223951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Television_Pink.prefab
+  artifactKey: Guid(760b8e80afc92324e976e063175a3651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Television_Pink.prefab using Guid(760b8e80afc92324e976e063175a3651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2189de168913d7e35829310c652c533e') in 0.057567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Checker02.prefab
+  artifactKey: Guid(d32003f72f8ed7d40b1c6ba6113dd130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Sofa_Checker02.prefab using Guid(d32003f72f8ed7d40b1c6ba6113dd130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dce8038e92fdb6f4fcf612e8dcfcb5') in 0.037025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/FloorLamp_White.prefab
+  artifactKey: Guid(10fe42ddfbe19fc4fbfdb971c20c317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/FloorLamp_White.prefab using Guid(10fe42ddfbe19fc4fbfdb971c20c317e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eb760c5cbeaa795e35f663b29e69be') in 0.030532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/OfficeChair.prefab
+  artifactKey: Guid(e7b995e4cee0e7e45af0827a35588f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/OfficeChair.prefab using Guid(e7b995e4cee0e7e45af0827a35588f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3177c7fb09aea42bc54e628a40b4a7c0') in 0.046890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Chair_Pink.prefab
+  artifactKey: Guid(4de016d2e574de64a9d446015f31444e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/Chair_Pink.prefab using Guid(4de016d2e574de64a9d446015f31444e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d109e328897177ad7d6905b1b351cf0') in 0.039731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Checker02.prefab
+  artifactKey: Guid(2fb0d17686931a647b2038b74cf70bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/objects/Coindrop assets/Cartoon Furniture 01/Prefabs/ArmChair_Checker02.prefab using Guid(2fb0d17686931a647b2038b74cf70bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb912c560d1c593d148538a98087e6c5') in 0.042372 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.9 MB.
+System memory in use after: 240.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3476.
+Total: 2.753787 ms (FindLiveObjects: 0.373676 ms CreateObjectMapping: 0.191731 ms MarkObjects: 2.166950 ms  DeleteObjects: 0.019986 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
