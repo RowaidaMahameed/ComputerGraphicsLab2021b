@@ -139,7 +139,7 @@ public class carMovement : MonoBehaviour
 
         for (int i=0; i<90; i++)
         {
-            int j = UnityEngine.Random.Range(0, 19);
+            int j = UnityEngine.Random.Range(0, 9);
             stuffs1[i] = new MyStuff(j, price[i], weights[i]);
         }
 
@@ -212,7 +212,7 @@ public class carMovement : MonoBehaviour
                         mytotal -= winners_value[0];
                         spaceleft = 0;
                         WinnerWindow.SetActive(true);
-                        text3.text = "finalScore : " + mytotal;
+                        text3.text = "\n\n\n\n your score is \n\n" + mytotal;
                         finalScore.SetActive(true);
                         sumweights.SetActive(false);
                         sumPrice.SetActive(false);
