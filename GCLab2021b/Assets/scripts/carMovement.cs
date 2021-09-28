@@ -212,7 +212,7 @@ public class carMovement : MonoBehaviour
                         mytotal -= winners_value[0];
                         spaceleft = 0;
                         WinnerWindow.SetActive(true);
-                        text3.text = "\n\n\n\n your score is \n\n" + mytotal;
+                        text3.text = "\n\n\n\n your score is\n \n\n" + mytotal;
                         finalScore.SetActive(true);
                         sumweights.SetActive(false);
                         sumPrice.SetActive(false);
