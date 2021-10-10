@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
+//A9jT_wUNxU0
 
 public class MyStuff
 {
@@ -38,7 +39,7 @@ public class carMovement : MonoBehaviour
     public GameObject sumweights;
     public GameObject sumPrice;
     public GameObject finalScore;
-    public GameObject[] prefabs = new GameObject[20];
+    public GameObject[] prefabs = new GameObject[30];
     public GameObject[] texts = new GameObject[2];
     const int stuffsNumber = 90;
     const int RoadssNumber = 63;
@@ -137,10 +138,15 @@ public class carMovement : MonoBehaviour
         int[] price = { 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 , 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80, 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 };
         int[] weights = { 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50, 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50, 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50 };
 
-        for (int i=0; i<90; i++)
+        for (int i=0; i<90; i+=3)
         {
             int j = UnityEngine.Random.Range(0, 9);
             stuffs1[i] = new MyStuff(j, price[i], weights[i]);
+            j = UnityEngine.Random.Range(10, 19);
+            stuffs1[i+1] = new MyStuff(j, price[i+1], weights[i+1]);
+            j = UnityEngine.Random.Range(20, 29);
+            stuffs1[i + 2] = new MyStuff(j, price[i + 2], weights[i + 2]);
+
         }
 
         for (int i = 0; i < RoadssNumber; i++)
@@ -153,10 +159,10 @@ public class carMovement : MonoBehaviour
 
         for (int i = 0; i < stuffs1.Length / 3; i++)
         {
-         
-            allStuff[i * 3] = Instantiate(prefabs[stuffs1[i * 3].getType()], new Vector3(-6.4f, 1.4f + prefabs[stuffs1[i * 3].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
-            allStuff[i * 3 + 1] = Instantiate(prefabs[stuffs1[i * 3 + 1].getType()], new Vector3(0, 1.4f + prefabs[stuffs1[i * 3 + 1].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
-            allStuff[i * 3 + 2] = Instantiate(prefabs[stuffs1[i * 3 + 2].getType()], new Vector3(6.4f, 1.4f + prefabs[stuffs1[i * 3 + 2].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.identity);
+
+            allStuff[i * 3] = Instantiate(prefabs[stuffs1[i * 3].getType()], new Vector3(-6.4f, -1f + prefabs[stuffs1[i * 3].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up));// Quaternion.identity);
+            allStuff[i * 3 + 1] = Instantiate(prefabs[stuffs1[i * 3 + 1].getType()], new Vector3(0, -1f + prefabs[stuffs1[i * 3 + 1].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up));
+            allStuff[i * 3 + 2] = Instantiate(prefabs[stuffs1[i * 3 + 2].getType()], new Vector3(6.4f, -1f + prefabs[stuffs1[i * 3 + 2].getType()].transform.lossyScale.y / 2, roundDist * (i + 1)), Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up));
 
             Weights[i * 3] = Instantiate(texts[0], new Vector3(-6.4f, 1.4f + prefabs[stuffs1[i * 3].getType()].transform.lossyScale.y / 2 + 4, roundDist * (i + 1)), Quaternion.identity);
             Weights[i * 3 + 1] = Instantiate(texts[0], new Vector3(0, 1.4f + prefabs[stuffs1[i * 3 + 1].getType()].transform.lossyScale.y / 2 + 4, roundDist * (i + 1)), Quaternion.identity);

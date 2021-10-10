@@ -294,6 +294,7 @@
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/GuiCode.cs"
+"Assets/prefabs/objects/stuffs/Stylized 3D Tools/Scripts/Rotator.cs"
 "Assets/scripts/carMovement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
