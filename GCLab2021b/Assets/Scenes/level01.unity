@@ -1412,7 +1412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662435421}
   m_LocalRotation: {x: 0.27164212, y: -0, z: -0, w: 0.96239835}
-  m_LocalPosition: {x: -0, y: 9.77, z: -7.58}
+  m_LocalPosition: {x: -0.17, y: 14.317, z: -3.287}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3418,7 +3418,7 @@ MonoBehaviour:
   sumPrice: {fileID: 1516860979}
   finalScore: {fileID: 278055981}
   prefabs:
-  - {fileID: 100000, guid: 68d891a28e29b4841be59a9d9481d586, type: 3}
+  - {fileID: 100000, guid: e387809b5d8994b0fa86756020b0c414, type: 3}
   - {fileID: 100000, guid: c6d80ee1beb0542b195551bef442acbc, type: 3}
   - {fileID: 100000, guid: f7d7fec76245c4f279ef911d06dd5825, type: 3}
   - {fileID: 100000, guid: d99306088ed4648e596b2c1990b7c1fa, type: 3}
@@ -3431,13 +3431,23 @@ MonoBehaviour:
   - {fileID: 100000, guid: 8e1a436f90fd344c7bac5b76c4b0034e, type: 3}
   - {fileID: 100000, guid: 3ea8bcf78cf494f44b52a0832644128e, type: 3}
   - {fileID: 100000, guid: a90384a1d1d424167aa52993c3ac4cb6, type: 3}
-  - {fileID: 100000, guid: e387809b5d8994b0fa86756020b0c414, type: 3}
+  - {fileID: 100000, guid: 68d891a28e29b4841be59a9d9481d586, type: 3}
   - {fileID: 100000, guid: 8307735c57314405293721f6fd30425c, type: 3}
   - {fileID: 100000, guid: 570a96d9d8635474fb23dbb4b5fdddcd, type: 3}
   - {fileID: 100000, guid: d31a52fb8ce1a43b38151f7b5c464b25, type: 3}
   - {fileID: 100000, guid: 967d582de642047028416dfd76439afb, type: 3}
   - {fileID: 100000, guid: 3ce966e662eab4d088788df75d033f1d, type: 3}
   - {fileID: 100000, guid: fdf3f39323f024448ac94ff598eae379, type: 3}
+  - {fileID: 100000, guid: f9313c2eb00404480ba30da729c373b1, type: 3}
+  - {fileID: 100000, guid: 67e53ebdcbe0c4aa2a8992c8ddc87a4f, type: 3}
+  - {fileID: 100000, guid: 864f2b9f9f0de4de6be597cf2b3e51d7, type: 3}
+  - {fileID: 100000, guid: cef8e138c2b384dc59c0aefce4f3a1f4, type: 3}
+  - {fileID: 100000, guid: e6199a66a15b64231b6ea920688b0685, type: 3}
+  - {fileID: 100000, guid: fa0fef54778f3483a8271b1cf676fb57, type: 3}
+  - {fileID: 100000, guid: 261b889d24810469a8ba56b937296ba6, type: 3}
+  - {fileID: 100000, guid: 6ce53b82c4b744e74a518e73bee3544c, type: 3}
+  - {fileID: 100000, guid: a5f7d672cbe4c4b70b6026c35dd9c5ad, type: 3}
+  - {fileID: 100000, guid: 9807c08e2101f49098fd6548d033f037, type: 3}
   texts:
   - {fileID: 2990196005895119055, guid: b0b6c591012e9409083f12f5979df7b6, type: 3}
   - {fileID: 2990196005895119055, guid: 371e8e34a8ef34b7fa205d51d1bb4d96, type: 3}
