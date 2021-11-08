@@ -120,6 +120,11 @@ public class carMovement : MonoBehaviour
 
 
     }
+    void physicalsimulation(int CarPos)
+    {
+        return;
+    }
+
     void Start()
     {
         audioStart.Play();
@@ -209,6 +214,7 @@ public class carMovement : MonoBehaviour
                     distance += speed * Time.deltaTime;
                     dist_posi += speed * Time.deltaTime;
                     textdist += speed * Time.deltaTime;
+                    
                 }
                 else
                 {
@@ -264,6 +270,7 @@ public class carMovement : MonoBehaviour
                     }
                     lev++;
                     dist_posi -= 60;
+                    physicalsimulation(CarPos);
                 }
             }
         }
