@@ -34,6 +34,11 @@ public class MyStuff
 
 public class carMovement : MonoBehaviour
 {
+    public GameObject BoxPrab;
+    public GameObject[] Boxes;
+    public GameObject Goods; // with the one that may slide
+
+    Rigidbody rbG;
     Rigidbody rb;
     public static readonly int[] winners_value = { 1000,3000,1600};
     public GameObject sumweights;
@@ -139,6 +144,8 @@ public class carMovement : MonoBehaviour
         All[1] = stuff2;
         All[2] = stuff3;
         rb = car.GetComponent<Rigidbody>();
+        rbG = Goods.GetComponent<Rigidbody>();
+        Goods.transform.position += new Vector3(-1.28f, 7.3f, -3.8f);
 
         int[] price = { 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 , 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80, 100, 200, 100, 100, 50, 150, 200, 120, 90, 250, 200, 200, 120, 150, 100, 200, 150, 180, 50, 100, 300, 150, 120, 100, 80, 50, 50, 50, 80, 80 };
         int[] weights = { 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50, 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50, 100, 50, 80, 90, 10, 100, 50, 40, 30, 20, 70, 140, 140, 200, 120, 500, 400, 200, 300, 140, 120, 100, 60, 110, 70, 210, 10, 230, 10, 50 };
@@ -210,7 +217,9 @@ public class carMovement : MonoBehaviour
                     text1.text = "space left : " + spaceleft;
                     text2.text = "total : " + mytotal;
                     car.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
+                    Goods.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
                     mycamera.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
+
                     distance += speed * Time.deltaTime;
                     dist_posi += speed * Time.deltaTime;
                     textdist += speed * Time.deltaTime;
@@ -250,6 +259,7 @@ public class carMovement : MonoBehaviour
                 text1.text = "space left : " + spaceleft;
                 text2.text = "total : " + mytotal;
                 car.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
+                Goods.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
                 mycamera.gameObject.transform.position += new Vector3(0, 0, speed) * Time.deltaTime;
                 distance += speed * Time.deltaTime;
                 dist_posi += speed * Time.deltaTime;
@@ -271,6 +281,13 @@ public class carMovement : MonoBehaviour
                     lev++;
                     dist_posi -= 60;
                     physicalsimulation(CarPos);
+                    if(lev < 5)
+                    {
+                        Vector3 curPos = Goods.transform.position;                        
+                        Goods = Instantiate(Boxes[lev-1], curPos, Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up)); //Instantiate(Boxes[lev],);
+                        rbG = Goods.GetComponent<Rigidbody>();
+                    }
+                   
                 }
             }
         }
@@ -300,12 +317,12 @@ public class carMovement : MonoBehaviour
         if (MouseStarted)
         {
             CurTouch = Input.mousePosition;
-           // Debug.Log(Input.mousePosition.x);
+            Debug.Log(Input.mousePosition.x);
         }
 
         if (!isMoving && Input.GetMouseButtonDown(0))
         {
-            //Debug.Log("First" + Input.mousePosition.x);
+            Debug.Log("First" + Input.mousePosition.x);
             firstTouch = Input.mousePosition;
             MouseStarted = true;
         }
@@ -321,14 +338,17 @@ public class carMovement : MonoBehaviour
 
 
         //for both mouse and touch
-        if (firstTouch.x > -1 && CurTouch.x > -1)
+        if (firstTouch.x
+
+            > -1 && CurTouch.x > -1)
         {
             if (!isMoving && CurTouch.x - firstTouch.x > 200)
             {
-                // Debug.Log("Riiight");
+                 Debug.Log("Riiight");
                 moveDir = 1;
                 isMoving = true;
                 rb.velocity = (Vector3.right * 10);
+                rbG.velocity = (Vector3.right * 10);
                 firstTouch = new Vector2(-1, -1);
                 CurTouch = new Vector2(-1, -1);
             }
@@ -337,19 +357,24 @@ public class carMovement : MonoBehaviour
                 moveDir = -1;
                 isMoving = true;
                 rb.velocity = (Vector3.left * 10);
+                rbG.velocity = (Vector3.left * 10);
                 firstTouch = new Vector2(-1, -1);
                 CurTouch = new Vector2(-1, -1);
             }
         }
         if (moveDir == 1)
         {
+            Debug.Log("There is Direction");
             if (CarPos == 0)
             {
                 if (car.gameObject.transform.position.x >= 7)
                 {
                     car.gameObject.transform.position = new Vector3(7, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    Goods.gameObject.transform.position = new Vector3(7, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
                     rb.velocity = Vector3.zero;
                     rb.angularVelocity = Vector3.zero;
+                    rbG.velocity = Vector3.zero;
+                    rbG.angularVelocity = Vector3.zero;
                     CarPos = 1;
                     moveDir = 0;
                     isMoving = false;
@@ -360,8 +385,11 @@ public class carMovement : MonoBehaviour
                 if (car.gameObject.transform.position.x >= 0)
                 {
                     car.gameObject.transform.position = new Vector3(0, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    Goods.gameObject.transform.position = new Vector3(0, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
                     rb.velocity = Vector3.zero;
                     rb.angularVelocity = Vector3.zero;
+                    rbG.velocity = Vector3.zero;
+                    rbG.angularVelocity = Vector3.zero;
                     CarPos = 0;
                     moveDir = 0;
                     isMoving = false;
@@ -371,6 +399,8 @@ public class carMovement : MonoBehaviour
             {
                 rb.velocity = Vector3.zero;
                 rb.angularVelocity = Vector3.zero;
+                rbG.velocity = Vector3.zero;
+                rbG.angularVelocity = Vector3.zero;
                 moveDir = 0;
                 isMoving = false;
             }
@@ -383,8 +413,11 @@ public class carMovement : MonoBehaviour
                 if (car.gameObject.transform.position.x <= -7)
                 {
                     car.gameObject.transform.position = new Vector3(-7, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    Goods.gameObject.transform.position = new Vector3(-7, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
                     rb.velocity = Vector3.zero;
                     rb.angularVelocity = Vector3.zero;
+                    rbG.velocity = Vector3.zero;
+                    rbG.angularVelocity = Vector3.zero;
                     CarPos = -1;
                     moveDir = 0;
                     isMoving = false;
@@ -395,8 +428,11 @@ public class carMovement : MonoBehaviour
                 if (car.gameObject.transform.position.x <= 0)
                 {
                     car.gameObject.transform.position = new Vector3(0, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
+                    Goods.gameObject.transform.position = new Vector3(0, car.gameObject.transform.position.y, car.gameObject.transform.position.z);
                     rb.velocity = Vector3.zero;
                     rb.angularVelocity = Vector3.zero;
+                    rbG.velocity = Vector3.zero;
+                    rbG.angularVelocity = Vector3.zero;
                     CarPos = 0;
                     moveDir = 0;
                     isMoving = false;
@@ -407,6 +443,8 @@ public class carMovement : MonoBehaviour
             {
                 rb.velocity = Vector3.zero;
                 rb.angularVelocity = Vector3.zero;
+                rbG.velocity = Vector3.zero;
+                rbG.angularVelocity = Vector3.zero;
                 moveDir = 0;
                 isMoving = false;
             }
