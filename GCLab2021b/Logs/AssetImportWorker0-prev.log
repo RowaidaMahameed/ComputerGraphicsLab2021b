@@ -1,0 +1,1538 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49487
+Successfully changed project path to: /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b
+/Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 136.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rowaidamahameed/Documents/GitHub/ComputerGraphicsLab2021b/GCLab2021b/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-11-13 13:40:55.261 Unity[1482:43709] Color LCD preferred device: Intel(R) HD Graphics 630 (low power)
+2021-11-13 13:40:55.261 Unity[1482:43709] Metal devices available: 2
+2021-11-13 13:40:55.261 Unity[1482:43709] 0: AMD Radeon Pro 555 (high power)
+2021-11-13 13:40:55.261 Unity[1482:43709] 1: Intel(R) HD Graphics 630 (low power)
+2021-11-13 13:40:55.262 Unity[1482:43709] Using device AMD Radeon Pro 555 (high power)
+Initializing Metal device caps: AMD Radeon Pro 555
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56482
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002433 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 141.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.937 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.483 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2859 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.7 MB.
+System memory in use after: 214.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3314.
+Total: 3.110709 ms (FindLiveObjects: 0.386688 ms CreateObjectMapping: 0.236935 ms MarkObjects: 2.393916 ms  DeleteObjects: 0.090224 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/imports/SimpleTown/Models/box.fbx
+  artifactKey: Guid(3235d0218e52c4092b86c94d3297e382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imports/SimpleTown/Models/box.fbx using Guid(3235d0218e52c4092b86c94d3297e382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a715f625cf289721e6575554a4add78') in 2.096131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.245839 seconds.
+  path: Assets/prefabs/cart
+  artifactKey: Guid(4698a244802ee4bc9bec1ee9922b447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/cart using Guid(4698a244802ee4bc9bec1ee9922b447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72bb0e335122fc33934e6f91fd129e7') in 0.003995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.830592 seconds.
+  path: Assets/prefabs/car
+  artifactKey: Guid(4698a244802ee4bc9bec1ee9922b447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car using Guid(4698a244802ee4bc9bec1ee9922b447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c892029d5aa67fa255bedea35f1d89c8') in 0.001967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.677652 seconds.
+  path: Assets/prefabs/car/box Variant.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box Variant.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4b40248474ec27aa74c169199886f4') in 0.528377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.021538 seconds.
+  path: Assets/prefabs/car/box Variant 1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box Variant 1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe91e072a6bd4366a917f226b7a9ca7d') in 0.018235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.817527 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3121d5eb2d7e5dfee9bd68f39886161') in 0.017706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.709847 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6a1e8dd8dfdf048fcb2182b776edc9') in 0.010149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.834297 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d9696c64a69c7842d6933be64016d7') in 0.038772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.003857 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad07c7be28f2acb50126b6a46edcdda') in 0.042134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.086146 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebf1e71300cb1dcaf7e4ac991d7a3cc') in 0.040556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.329404 seconds.
+  path: Assets/prefabs/car/box2 1.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2 1.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7827593ce6bd51f158e1e1d07aee2156') in 0.011236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.642122 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0c3dd5ca741e53a35ead3529cee217') in 0.010516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.979686 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc6ab9c18b1eafaf5a62cfe853d5bc') in 0.040132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.873444 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04bfb83e709ddabdd51ad38fd008383') in 0.040227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.244470 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9200b31a37298d9e3402a8c6bbbc8c4b') in 0.021453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.190630 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace428cd8387e41dd310c3c2c8cdf348') in 0.042315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.768476 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e30d906b9b6788f4dde890848506dd1') in 0.038688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.148422 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0d8c29ea856f4a5fb46913438f464f') in 0.017204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.854480 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2765d749beb5c3b173887c641289f94c') in 0.022092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.822635 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4a975870a7674c057b79b751d06703') in 0.045901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.723285 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a81a84bc454d7b6abc4ade7a429dca') in 0.010669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.601281 seconds.
+  path: Assets/prefabs/car/box4 1.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4 1.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755ccc674105eb76e8a92605f81845af') in 0.010891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.821211 seconds.
+  path: Assets/prefabs/car/box43.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box43.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1221d75dcc6a1372ad71df3838bff21c') in 0.010354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.345924 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4acd118d492c09044095469ccc85885') in 0.010289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.596103 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e5a19eed86a0cb02a360fbfb59a258') in 0.020033 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002205 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.1 MB.
+System memory in use after: 224.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3360.
+Total: 2.870872 ms (FindLiveObjects: 0.364748 ms CreateObjectMapping: 0.239550 ms MarkObjects: 2.240759 ms  DeleteObjects: 0.024181 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 285.937959 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0f1c5a25b629193f3f4b54db554189') in 0.089737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.313230 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ec300aa57d473c556d64a6cdf798fb') in 0.034796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.300087 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86be1fb7aab095cb3659b94cfa6d4d86') in 0.032991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.182979 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80fe06f4208c08d97732b2b9a231c6a') in 0.033305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.640603 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b4dc005b33464ae45135b6a3209f2b') in 0.033016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.139711 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0f5ada7fbad0c47e0b7602af64b6f2') in 0.034127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.115152 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34f2501e8ceb0beefa8c13f624dd50') in 0.033218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.054940 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297ceab401cdcacc61ae1c602c313df6') in 0.039993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.258013 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd935899c5ac5f68a5116abc63e2a3b28') in 0.033500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.120295 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c2171c7b1be1940044b5093643d898') in 0.033487 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.6 MB.
+System memory in use after: 224.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3364.
+Total: 3.475560 ms (FindLiveObjects: 0.471950 ms CreateObjectMapping: 0.213234 ms MarkObjects: 2.758622 ms  DeleteObjects: 0.030075 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.9 MB.
+System memory in use after: 225.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3367.
+Total: 2.937573 ms (FindLiveObjects: 0.372805 ms CreateObjectMapping: 0.283103 ms MarkObjects: 2.258262 ms  DeleteObjects: 0.021428 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.1 MB.
+System memory in use after: 225.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 3.223770 ms (FindLiveObjects: 0.324289 ms CreateObjectMapping: 0.171054 ms MarkObjects: 2.703593 ms  DeleteObjects: 0.023026 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.4 MB.
+System memory in use after: 225.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3373.
+Total: 2.978034 ms (FindLiveObjects: 0.369670 ms CreateObjectMapping: 0.244363 ms MarkObjects: 2.341334 ms  DeleteObjects: 0.021091 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.6 MB.
+System memory in use after: 225.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 3.507492 ms (FindLiveObjects: 0.399202 ms CreateObjectMapping: 0.229171 ms MarkObjects: 2.851789 ms  DeleteObjects: 0.025615 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 2353.214822 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd511830a9b1d78e6b97010b6e6565cc5') in 0.099502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.207869 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35febc81e23b33c9e1bc0d0f8523041e') in 0.037536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.027077 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5a577e55bb49b154da840c37b13ad4') in 0.046638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.212587 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dc4f1c0219fd8a6a203bb884b1b831') in 0.036616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.127869 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951dd1cd58ac18d8f0e55c17eded77d6') in 0.037857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.029337 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be19822edbf75fa262218df787a1d252') in 0.037869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.280523 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f296aeb18549900d640379511cccd624') in 0.037419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.565775 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aebfbcdebac3221630b06bb613fe17e') in 0.034705 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.0 MB.
+System memory in use after: 226.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3380.
+Total: 3.613932 ms (FindLiveObjects: 0.413771 ms CreateObjectMapping: 0.328467 ms MarkObjects: 2.849805 ms  DeleteObjects: 0.020497 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.507 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.3 MB.
+System memory in use after: 226.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3383.
+Total: 2.457429 ms (FindLiveObjects: 0.332183 ms CreateObjectMapping: 0.164470 ms MarkObjects: 1.939364 ms  DeleteObjects: 0.019860 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 286.816937 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9e9993f1ba473904cac652bc1ea254') in 0.097847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.625042 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59986a451a1deab62c3ff7d2f5f9addc') in 0.016982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.347100 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4538bbc5d4ca1100bb6f3ac24b16ff') in 0.011318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.825203 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2b51d36e0151aefb7bd49d7191c82e') in 0.011091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.550818 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c84ff15eb7c81a6413da60579723b3') in 0.014007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.736987 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0b2af54263272e39bcb791b9ac030a') in 0.010919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428047 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca2cc57fb695e4a6871468210e83ea9') in 0.011943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.464681 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e84c7777136151fda40d091105755de') in 0.020217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce28defd04853377cce71a22a6f97c3') in 0.027058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d94a0d2715bf6007de2fc85ae14048') in 0.018621 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.7 MB.
+System memory in use after: 226.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3387.
+Total: 2.932542 ms (FindLiveObjects: 0.289649 ms CreateObjectMapping: 0.161708 ms MarkObjects: 2.455003 ms  DeleteObjects: 0.024225 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.0 MB.
+System memory in use after: 227.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3390.
+Total: 2.311065 ms (FindLiveObjects: 0.283837 ms CreateObjectMapping: 0.132184 ms MarkObjects: 1.875506 ms  DeleteObjects: 0.018328 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.2 MB.
+System memory in use after: 227.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3393.
+Total: 2.674760 ms (FindLiveObjects: 0.355653 ms CreateObjectMapping: 0.201968 ms MarkObjects: 2.093988 ms  DeleteObjects: 0.021637 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.5 MB.
+System memory in use after: 227.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3396.
+Total: 2.672794 ms (FindLiveObjects: 0.332419 ms CreateObjectMapping: 0.192762 ms MarkObjects: 2.108667 ms  DeleteObjects: 0.021857 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 272.901718 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac12989f9c96b6b81af212eecd94e73') in 0.096281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.390966 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e07ea1cc39c0573af2f1857f68196ab') in 0.017945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.140491 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd58f51f2bde002a71d41bb32325ec8') in 0.011565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.098713 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cb01dbb423bd3e6f5901830ba7087a') in 0.013419 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.453 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.8 MB.
+System memory in use after: 228.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3400.
+Total: 3.798969 ms (FindLiveObjects: 0.685176 ms CreateObjectMapping: 0.571219 ms MarkObjects: 2.509916 ms  DeleteObjects: 0.030446 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.0 MB.
+System memory in use after: 228.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3403.
+Total: 2.724414 ms (FindLiveObjects: 0.311157 ms CreateObjectMapping: 0.150809 ms MarkObjects: 2.237683 ms  DeleteObjects: 0.023247 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 153.598761 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac451f6db951d4d23b0988bf33292ee1') in 0.092788 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002506 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.3 MB.
+System memory in use after: 228.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3407.
+Total: 3.307052 ms (FindLiveObjects: 0.329414 ms CreateObjectMapping: 0.141383 ms MarkObjects: 2.808249 ms  DeleteObjects: 0.026389 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 132.644848 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85d2882fdee088879204d453b47b524') in 0.115782 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.6 MB.
+System memory in use after: 228.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 3.581901 ms (FindLiveObjects: 0.520209 ms CreateObjectMapping: 0.365943 ms MarkObjects: 2.666831 ms  DeleteObjects: 0.026188 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.491 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.9 MB.
+System memory in use after: 229.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3414.
+Total: 4.424412 ms (FindLiveObjects: 0.477604 ms CreateObjectMapping: 0.368173 ms MarkObjects: 3.550386 ms  DeleteObjects: 0.026575 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.1 MB.
+System memory in use after: 229.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3417.
+Total: 5.464039 ms (FindLiveObjects: 0.856959 ms CreateObjectMapping: 0.631758 ms MarkObjects: 3.860018 ms  DeleteObjects: 0.110716 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.3 MB.
+System memory in use after: 229.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3420.
+Total: 2.933303 ms (FindLiveObjects: 0.430697 ms CreateObjectMapping: 0.235056 ms MarkObjects: 2.232529 ms  DeleteObjects: 0.033506 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.6 MB.
+System memory in use after: 229.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3423.
+Total: 3.784282 ms (FindLiveObjects: 0.457534 ms CreateObjectMapping: 0.331436 ms MarkObjects: 2.955205 ms  DeleteObjects: 0.037878 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.448 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.8 MB.
+System memory in use after: 230.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3426.
+Total: 3.257284 ms (FindLiveObjects: 0.354190 ms CreateObjectMapping: 0.310859 ms MarkObjects: 2.564801 ms  DeleteObjects: 0.025723 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.1 MB.
+System memory in use after: 230.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3429.
+Total: 2.714970 ms (FindLiveObjects: 0.336531 ms CreateObjectMapping: 0.198588 ms MarkObjects: 2.154651 ms  DeleteObjects: 0.023557 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.3 MB.
+System memory in use after: 230.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 3.111325 ms (FindLiveObjects: 0.321711 ms CreateObjectMapping: 0.164027 ms MarkObjects: 2.599665 ms  DeleteObjects: 0.023284 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.6 MB.
+System memory in use after: 230.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 3.258416 ms (FindLiveObjects: 0.422198 ms CreateObjectMapping: 0.258572 ms MarkObjects: 2.545764 ms  DeleteObjects: 0.029825 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.8 MB.
+System memory in use after: 231.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 3.507854 ms (FindLiveObjects: 0.515642 ms CreateObjectMapping: 0.213224 ms MarkObjects: 2.752989 ms  DeleteObjects: 0.024051 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.0 MB.
+System memory in use after: 231.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3441.
+Total: 3.811856 ms (FindLiveObjects: 0.335449 ms CreateObjectMapping: 0.237670 ms MarkObjects: 3.210617 ms  DeleteObjects: 0.024864 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.3 MB.
+System memory in use after: 231.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3444.
+Total: 4.066311 ms (FindLiveObjects: 0.465780 ms CreateObjectMapping: 0.381116 ms MarkObjects: 3.192285 ms  DeleteObjects: 0.025603 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.378 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.5 MB.
+System memory in use after: 231.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3447.
+Total: 4.777897 ms (FindLiveObjects: 0.714670 ms CreateObjectMapping: 0.489492 ms MarkObjects: 3.534125 ms  DeleteObjects: 0.035201 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.8 MB.
+System memory in use after: 232.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3450.
+Total: 2.795641 ms (FindLiveObjects: 0.346715 ms CreateObjectMapping: 0.162017 ms MarkObjects: 2.259453 ms  DeleteObjects: 0.025638 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.495 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.0 MB.
+System memory in use after: 232.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3453.
+Total: 3.509354 ms (FindLiveObjects: 0.429258 ms CreateObjectMapping: 0.321001 ms MarkObjects: 2.729363 ms  DeleteObjects: 0.027550 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.3 MB.
+System memory in use after: 232.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3456.
+Total: 3.745515 ms (FindLiveObjects: 0.445310 ms CreateObjectMapping: 0.318202 ms MarkObjects: 2.955275 ms  DeleteObjects: 0.024531 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.570 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.5 MB.
+System memory in use after: 232.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3459.
+Total: 3.312263 ms (FindLiveObjects: 0.419034 ms CreateObjectMapping: 0.283301 ms MarkObjects: 2.584246 ms  DeleteObjects: 0.023813 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.7 MB.
+System memory in use after: 233.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3462.
+Total: 3.240436 ms (FindLiveObjects: 0.478144 ms CreateObjectMapping: 0.338958 ms MarkObjects: 2.392691 ms  DeleteObjects: 0.028953 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.730 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.0 MB.
+System memory in use after: 233.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3465.
+Total: 5.188882 ms (FindLiveObjects: 0.518810 ms CreateObjectMapping: 0.241361 ms MarkObjects: 4.385855 ms  DeleteObjects: 0.039908 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.948 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.3 MB.
+System memory in use after: 233.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3468.
+Total: 4.306519 ms (FindLiveObjects: 0.512641 ms CreateObjectMapping: 0.370837 ms MarkObjects: 3.376953 ms  DeleteObjects: 0.044380 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.5 MB.
+System memory in use after: 233.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3471.
+Total: 3.325586 ms (FindLiveObjects: 0.362900 ms CreateObjectMapping: 0.235504 ms MarkObjects: 2.696525 ms  DeleteObjects: 0.028872 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.8 MB.
+System memory in use after: 234.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3474.
+Total: 2.925190 ms (FindLiveObjects: 0.354598 ms CreateObjectMapping: 0.163093 ms MarkObjects: 2.379882 ms  DeleteObjects: 0.025709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 3013.687071 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cbae2c768a5896a8ed837c09cacb18') in 0.096401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.826336 seconds.
+  path: Assets/prefabs/car/box1.prefab
+  artifactKey: Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box1.prefab using Guid(b3bd78e4f077c476cbcaee74cfe2a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b4584e6ff2a6b61798e163cccef720') in 0.015232 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.650 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.1 MB.
+System memory in use after: 234.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3478.
+Total: 3.409988 ms (FindLiveObjects: 0.405169 ms CreateObjectMapping: 0.236930 ms MarkObjects: 2.730103 ms  DeleteObjects: 0.035920 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 48.075093 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99591081a28d9e9f42ec770a44d695b9') in 0.100361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/prefabs/car/box2.prefab
+  artifactKey: Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box2.prefab using Guid(a0529233bac284d8b816c99041403e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcafc8d2435ef309d8081472ac82c833') in 0.016602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.352743 seconds.
+  path: Assets/prefabs/car/box3.prefab
+  artifactKey: Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box3.prefab using Guid(0221e60eaf172499ab09bb9564f4357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb072bc924f7c2bd93127bc2713064d6') in 0.010649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.413745 seconds.
+  path: Assets/prefabs/car/box4.prefab
+  artifactKey: Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/car/box4.prefab using Guid(3b31a79b85cc14517b1510893f8cc541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1795ec70311376e54ba21db880797fcb') in 0.012599 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.457 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.4 MB.
+System memory in use after: 234.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3482.
+Total: 2.346430 ms (FindLiveObjects: 0.284816 ms CreateObjectMapping: 0.141950 ms MarkObjects: 1.899694 ms  DeleteObjects: 0.018738 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.6 MB.
+System memory in use after: 234.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3485.
+Total: 2.677292 ms (FindLiveObjects: 0.353053 ms CreateObjectMapping: 0.122430 ms MarkObjects: 2.180182 ms  DeleteObjects: 0.020697 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.9 MB.
+System memory in use after: 235.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3488.
+Total: 2.498683 ms (FindLiveObjects: 0.344741 ms CreateObjectMapping: 0.156141 ms MarkObjects: 1.976281 ms  DeleteObjects: 0.020360 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.2 MB.
+System memory in use after: 235.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3491.
+Total: 2.696328 ms (FindLiveObjects: 0.412398 ms CreateObjectMapping: 0.140523 ms MarkObjects: 2.119771 ms  DeleteObjects: 0.022496 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.4 MB.
+System memory in use after: 235.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3494.
+Total: 2.638142 ms (FindLiveObjects: 0.475210 ms CreateObjectMapping: 0.158410 ms MarkObjects: 1.980917 ms  DeleteObjects: 0.021258 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.7 MB.
+System memory in use after: 235.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3497.
+Total: 3.629844 ms (FindLiveObjects: 0.392180 ms CreateObjectMapping: 0.223294 ms MarkObjects: 2.987446 ms  DeleteObjects: 0.024880 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Mikkel_LightMapped_1map': fallback shader 'VDiffuse' not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.9 MB.
+System memory in use after: 236.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3500.
+Total: 2.875851 ms (FindLiveObjects: 0.341385 ms CreateObjectMapping: 0.199467 ms MarkObjects: 2.308689 ms  DeleteObjects: 0.023080 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

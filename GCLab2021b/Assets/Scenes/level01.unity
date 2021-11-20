@@ -3567,6 +3567,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BoxPrab: {fileID: 8238158905845547892, guid: b3bd78e4f077c476cbcaee74cfe2a25f, type: 3}
+  CarsObj:
+  - {fileID: 503506954276433352, guid: aa90f488a9cef4ccb9a7cb0406abb0ce, type: 3}
+  - {fileID: 503506954276433352, guid: 7179fd6163a814bf1aa3b888873c19d8, type: 3}
+  - {fileID: 503506954276433352, guid: 660e93f1fc0f748249482fdcff3b92e0, type: 3}
+  - {fileID: 503506954276433352, guid: ee2a55f9c803f4c4198bb2974716b0ba, type: 3}
+  - {fileID: 503506954276433352, guid: e28d62a67aaa343c1b2efcfcbe40dc8a, type: 3}
+  - {fileID: 503506954276433352, guid: e5e690061a1624e5692aedb89c7d1b99, type: 3}
   Boxes:
   - {fileID: 8238158905845547892, guid: b3bd78e4f077c476cbcaee74cfe2a25f, type: 3}
   - {fileID: 8238158905845547892, guid: a0529233bac284d8b816c99041403e77, type: 3}

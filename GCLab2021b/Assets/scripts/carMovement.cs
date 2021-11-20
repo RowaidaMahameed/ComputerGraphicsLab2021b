@@ -35,6 +35,7 @@ public class MyStuff
 public class carMovement : MonoBehaviour
 {
     public GameObject BoxPrab;
+    public GameObject[] CarsObj = new GameObject[6];
     public GameObject[] Boxes;
     public GameObject Goods; // with the one that may slide
 
@@ -128,6 +129,12 @@ public class carMovement : MonoBehaviour
     void physicalsimulation(int CarPos)
     {
         return;
+    }
+    IEnumerator DeattachAfterSeconds(float n)
+    {
+        yield return new WaitForSeconds(n);
+        car.transform.GetChild(2).parent = null;
+        car.AddComponent<Rigidbody>().isKinematic = false;
     }
 
     void Start()
@@ -281,11 +288,37 @@ public class carMovement : MonoBehaviour
                     lev++;
                     dist_posi -= 60;
                     physicalsimulation(CarPos);
-                    if(lev < 5)
+                    if(lev < 6)
                     {
-                        Vector3 curPos = Goods.transform.position;                        
-                        Goods = Instantiate(Boxes[lev-1], curPos, Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up)); //Instantiate(Boxes[lev],);
-                        rbG = Goods.GetComponent<Rigidbody>();
+                        Vector3 LP = car.transform.localPosition;
+                        Quaternion LR = car.transform.localRotation;
+                        Vector3 LS = car.transform.localScale;
+                        Vector3 curPos = car.transform.position;
+                        Destroy(car);
+                        car = Instantiate(CarsObj[lev], curPos, Quaternion.identity); //Instantiate(Boxes[lev],); Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up)
+                        car.transform.localScale = LS;
+                        car.transform.localPosition = LP;
+                        car.transform.localRotation = LR;
+                        //car.AddComponent<MeshCollider>();
+                        car.AddComponent<MeshRenderer>();
+                        car.AddComponent<Rigidbody>().isKinematic = false;
+                        car.GetComponent<Rigidbody>().useGravity = false;
+                        //car.GetComponent<MeshCollider>().convex = true;
+                        rb = car.GetComponent<Rigidbody>();
+                        rbG = car.GetComponent<Rigidbody>();
+                        if (lev == 5)
+                        {
+                            car.transform.GetChild(2).GetComponent<Rigidbody>().useGravity = true;
+                            car.transform.GetChild(2).GetComponent<Rigidbody>().velocity = new Vector3(4, 6, 2);
+                            car.transform.Rotate(new Vector3(2, 10, 10));
+                            car.AddComponent<Rigidbody>().isKinematic = true;
+                            StartCoroutine(DeattachAfterSeconds(0.7f));
+                        }
+                        //save and run or just wait
+
+                        // iam going to the bathroom/
+                        // i need to get to the child of the car ->-> until box.. then turn on gravity
+                        //and giving it velocity..randomly better :)
                     }
                    
                 }
