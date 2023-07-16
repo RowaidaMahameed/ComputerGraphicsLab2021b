@@ -35,7 +35,7 @@ public class MyStuff
 public class carMovement : MonoBehaviour
 {
     public GameObject BoxPrab;
-    public GameObject[] CarsObj = new GameObject[6];
+    public GameObject[] CarsObj = new GameObject[7];
     public GameObject[] Boxes;
     public GameObject Goods; // with the one that may slide
 
@@ -64,6 +64,7 @@ public class carMovement : MonoBehaviour
     public float dist_posi = 0;
     public float textdist = 0;
     int lev = 0;
+    int carLev = 0;
     public int level1_end = 0;
     public float speed = 15;
     public float roundDist = 60;
@@ -73,6 +74,7 @@ public class carMovement : MonoBehaviour
     public int mytotal = 0;
     public int spaceleft = 1000;
     public int CarPos = 0;
+    public int lastCarPos = 0;
     public bool MouseStarted = false;
     public int currentLevel = 0;
     // touch vectors 
@@ -218,7 +220,8 @@ public class carMovement : MonoBehaviour
         {
             if (lev == 10)
             {
-                //Debug.Log("Winner");
+               
+
                 if (textdist <= 610)
                 {
                     text1.text = "space left : " + spaceleft;
@@ -271,8 +274,15 @@ public class carMovement : MonoBehaviour
                 distance += speed * Time.deltaTime;
                 dist_posi += speed * Time.deltaTime;
                 textdist += speed * Time.deltaTime;
+                if(dist_posi <= 25)
+                {
+                    //Debug.Log("Change Now : ");
+                    lastCarPos = CarPos;
+                }
                 if (dist_posi >= 60)
                 {
+                    Debug.Log("Car Pos = " + CarPos);
+                    Debug.Log("Last Pos = " + lastCarPos);
                     int offset = (30 * (currentLevel / 2));
                     allStuff[offset+lev * 3 + CarPos + 1].SetActive(false);
                     Prices[offset+lev * 3 + CarPos + 1].SetActive(false);
@@ -286,16 +296,18 @@ public class carMovement : MonoBehaviour
                         audioCollect.Play();
                     }
                     lev++;
+                    if (carLev < 6) carLev++;
+
                     dist_posi -= 60;
                     physicalsimulation(CarPos);
-                    if(lev < 6)
+                    if(carLev < 6)
                     {
                         Vector3 LP = car.transform.localPosition;
                         Quaternion LR = car.transform.localRotation;
                         Vector3 LS = car.transform.localScale;
                         Vector3 curPos = car.transform.position;
                         Destroy(car);
-                        car = Instantiate(CarsObj[lev], curPos, Quaternion.identity); //Instantiate(Boxes[lev],); Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up)
+                        car = Instantiate(CarsObj[carLev], curPos, Quaternion.identity); //Instantiate(Boxes[lev],); Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up)
                         car.transform.localScale = LS;
                         car.transform.localPosition = LP;
                         car.transform.localRotation = LR;
@@ -306,19 +318,44 @@ public class carMovement : MonoBehaviour
                         //car.GetComponent<MeshCollider>().convex = true;
                         rb = car.GetComponent<Rigidbody>();
                         rbG = car.GetComponent<Rigidbody>();
-                        if (lev == 5)
+                        /*if (lev == 5)
                         {
                             car.transform.GetChild(2).GetComponent<Rigidbody>().useGravity = true;
                             car.transform.GetChild(2).GetComponent<Rigidbody>().velocity = new Vector3(4, 6, 2);
                             car.transform.Rotate(new Vector3(2, 10, 10));
                             car.AddComponent<Rigidbody>().isKinematic = true;
                             StartCoroutine(DeattachAfterSeconds(0.7f));
+                        }*/
+                    }
+                    else
+                    {
+                        Debug.Log(" $$$$$$$$$$$$$$$$$ ");
+                        if (lastCarPos - CarPos == 2 || lastCarPos - CarPos == -2)
+                        {
+                            Vector3 LP = car.transform.localPosition;
+                            Quaternion LR = car.transform.localRotation;
+                            Vector3 LS = car.transform.localScale;
+                            Vector3 curPos = car.transform.position;
+                            Destroy(car);
+                            car = Instantiate(CarsObj[6], curPos, Quaternion.identity); //Instantiate(Boxes[lev],); Quaternion.AngleAxis(270, Vector3.left) * Quaternion.AngleAxis(180, Vector3.up)
+                            car.transform.localScale = LS;
+                            car.transform.localPosition = LP;
+                            car.transform.localRotation = LR;
+                            //car.AddComponent<MeshCollider>();
+                            car.AddComponent<MeshRenderer>();
+                            car.AddComponent<Rigidbody>().isKinematic = false;
+                            car.GetComponent<Rigidbody>().useGravity = false;
+                            //car.GetComponent<MeshCollider>().convex = true;
+                            rb = car.GetComponent<Rigidbody>();
+                            rbG = car.GetComponent<Rigidbody>();
+                            car.transform.GetChild(2).GetComponent<Rigidbody>().useGravity = true;
+                            car.transform.GetChild(2).GetComponent<Rigidbody>().velocity = new Vector3(4, 6, 2);
+                            car.transform.Rotate(new Vector3(2, 10, 10));
+                            car.AddComponent<Rigidbody>().isKinematic = true;
+                            StartCoroutine(DeattachAfterSeconds(0.7f));
+                            carLev -=2 ;
+                            Debug.Log(" next Lev Car = " + carLev);
                         }
-                        //save and run or just wait
-
-                        // iam going to the bathroom/
-                        // i need to get to the child of the car ->-> until box.. then turn on gravity
-                        //and giving it velocity..randomly better :)
                     }
                    
                 }

@@ -1412,7 +1412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662435421}
   m_LocalRotation: {x: 0.27164212, y: -0, z: -0, w: 0.96239835}
-  m_LocalPosition: {x: -0.17, y: 14.317, z: -3.287}
+  m_LocalPosition: {x: -0.17, y: 14.49, z: -9.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3572,6 +3572,7 @@ MonoBehaviour:
   - {fileID: 503506954276433352, guid: 7179fd6163a814bf1aa3b888873c19d8, type: 3}
   - {fileID: 503506954276433352, guid: 660e93f1fc0f748249482fdcff3b92e0, type: 3}
   - {fileID: 503506954276433352, guid: ee2a55f9c803f4c4198bb2974716b0ba, type: 3}
+  - {fileID: 503506954276433352, guid: ffb51f354e7c24c49a39ee09883f844a, type: 3}
   - {fileID: 503506954276433352, guid: e28d62a67aaa343c1b2efcfcbe40dc8a, type: 3}
   - {fileID: 503506954276433352, guid: e5e690061a1624e5692aedb89c7d1b99, type: 3}
   Boxes:
@@ -4000,6 +4001,7 @@ MonoBehaviour:
   mytotal: 0
   spaceleft: 1000
   CarPos: 0
+  lastCarPos: 0
   MouseStarted: 0
   currentLevel: 0
   isMoving: 0
